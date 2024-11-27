@@ -76,38 +76,26 @@
   margin: 0 auto;
 }
 
-.quck_a {
+.quck {
   display: block;
   width: 275px;
   height: 211px;
   float: left;
-  background: url(../assets/images/quck0.jpg) no-repeat 50% 50%;
   margin-top: 39px;
+}
+
+.quck_a {
+  background: url(../assets/images/quck0.jpg) no-repeat 50% 50%;
 }
 
 .quck_b {
-  display: block;
-  width: 275px;
-  height: 211px;
-  float: left;
   background: url(../assets/images/quck1.jpg) no-repeat 50% 50%;
-  margin-top: 39px;
 }
 
 .quck_c {
-  display: block;
-  width: 275px;
-  height: 211px;
-  float: left;
   background: url(../assets/images/quck2.jpg) no-repeat 50% 50%;
-  margin-top: 39px;
 }
 
 .quck_d {
-  display: block;
-  width: 275px;
-  height: 211px;
-  float: left;
   background: url(../assets/images/quck3.jpg) no-repeat 50% 50%;
-  margin-top: 39px;
 }

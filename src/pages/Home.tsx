@@ -44,10 +44,10 @@ export default function Home() {
       <div className={styles.idx_container}>
         <div className={styles.quck_wrap}>
           <div className={styles.inner_quck}>
-            <Link to={`/company`} className={styles.quck_a} />
-            <Link to={`/business/si`} className={styles.quck_b} />
-            <Link to={`/work`} className={styles.quck_c} />
-            <Link to={`/contact`} className={styles.quck_d} />
+            <Link to={`/company`} className={`${styles.quck} ${styles.quck_a}`} />
+            <Link to={`/business/si`} className={`${styles.quck} ${styles.quck_b}`} />
+            <Link to={`/work`} className={`${styles.quck} ${styles.quck_c}`} />
+            <Link to={`/contact`} className={`${styles.quck} ${styles.quck_d}`} />
           </div>
         </div>
       </div>
