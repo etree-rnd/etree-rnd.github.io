@@ -5,18 +5,15 @@ import styles from 'components/Menu.module.css';
 
 export default function Menu() {
   const { menus } = useDefaultData();
-  const [menuState, setMenuState] = useState('');
   const [showSubMenu, setShowSubMenu] = useState(false);
 
   const mainMenuMouseOverHandler = (menuId: string) => {
     const result = menuId.includes('bus');
     setShowSubMenu(result);
-    setMenuState(() => menuId);
   };
 
   const mainMenuMouseOutHandler = () => {
     setShowSubMenu(false);
-    setMenuState('');
   };
 
   return (
