@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router';
 import DefaultLayout from 'layouts/DefaultLayout';
 import routes from 'router/routes';
 import { RoutesProp } from './interfaces/RoutesProp';
+import Privacy from './pages/Privacy';
+import Provision from './pages/Provision';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             />
           );
         })}
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/provision" element={<Provision />} />
       </Route>
     </Routes>
   );

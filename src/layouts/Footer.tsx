@@ -28,9 +28,9 @@ export default function Footer() {
             {name} │ 사업자등록번호 {bizNo} │ {address}
             <br />
             TEL {telephone} │ FAX {fax} │ E-mail{' '}
-            <Link to={`emailto:${email}`} className={styles.email}>
+            <a href={`emailto:${email}`} className={styles.email}>
               {email}
-            </Link>
+            </a>
           </p>
           <p className={styles.p_ft_copy}>
             Copyright © <b>2021 {name}.</b> All rights reserved.
