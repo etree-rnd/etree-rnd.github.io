@@ -13,7 +13,7 @@ export function useDefaultData() {
     },
     { id: 'work', to: '/work', name: 'WORK' },
     { id: 'rec', to: '/recruit', name: 'RECRUIT' },
-    { id: 'con', to: '/contact', name: 'CONTACT US' },
+    { id: 'con', to: '/contact', name: 'CONTACT', midName: 'CONTACT US' },
   ];
 
   const company: Company = {

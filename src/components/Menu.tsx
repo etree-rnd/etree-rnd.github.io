@@ -18,7 +18,7 @@ export default function Menu() {
 
   return (
     <ul className={styles.gnb_1dul}>
-      {menus.map(({ id, to, name, children }: Menu) => {
+      {menus.map(({ id, to, name, midName, children }: Menu) => {
         return (
           <li
             key={id}
@@ -34,19 +34,24 @@ export default function Menu() {
                 mainMenuMouseOutHandler();
               }}
             >
-              {name}
+              {midName ? midName : name}
             </Link>
             {children && (
-              <ul className={`${styles.gnb_2dul} ${showSubMenu ? styles['gnb_2dul_active'] : ''}`}>
+              <ul
+                className={`${styles.gnb_2dul} ${showSubMenu ? styles['gnb_2dul_active'] : ''}`}
+              >
                 {children.map(({ id, to, name }) => (
                   <li key={id}>
-                    <Link to={to} className={styles.gnb_2da} data-menuid={id}
-                          onMouseOver={() => {
-                            mainMenuMouseOverHandler(id);
-                          }}
-                          onMouseOut={() => {
-                            mainMenuMouseOutHandler();
-                          }}
+                    <Link
+                      to={to}
+                      className={styles.gnb_2da}
+                      data-menuid={id}
+                      onMouseOver={() => {
+                        mainMenuMouseOverHandler(id);
+                      }}
+                      onMouseOut={() => {
+                        mainMenuMouseOutHandler();
+                      }}
                     >
                       {name}
                     </Link>

@@ -10,11 +10,16 @@ type PageFrameProps = {
   children: JSX.Element;
 };
 
-export default function PageFrame({ to, menu, children }: PageFrameProps) {
+export default function PageFrame({
+  to,
+  menu,
+  submenu,
+  children,
+}: PageFrameProps) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.sub_tit}>
-        <h2 className={styles.sub_tit_h2}>{menu}</h2>
+        <h2 className={styles.sub_tit_h2}>{submenu ? submenu : menu}</h2>
       </div>
       <div className={styles.cons_wrap}>
         <div className={styles.cpo}>
@@ -32,7 +37,7 @@ export default function PageFrame({ to, menu, children }: PageFrameProps) {
             </li>
           </ul>
           <p className={styles.cpop}>
-            home &gt; {menu} &gt; {menu}
+            home &gt; {submenu ? submenu : menu} &gt; {menu}
           </p>
         </div>
         <div className={styles.container}>

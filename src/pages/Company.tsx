@@ -6,8 +6,8 @@ import styles from 'pages/Company.module.css';
 
 export default function Company() {
   const { menus } = useDefaultData();
-  const company = menus.filter((menu) => menu.id === 'com');
-  const { id, to, name } = company[0];
+  const menu = menus.filter((menu) => menu.id === 'com');
+  const { id, to, name } = menu[0];
   return (
     <>
       <PageFrame id={id} to={to} menu={name}>
