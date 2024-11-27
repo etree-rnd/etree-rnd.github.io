@@ -1,0 +1,10 @@
+.ft{background:#3a3a3a;min-width:1100px;width:100%;margin: 0 auto;}
+.ft_wr{margin:0 auto;width:1100px;position:relative;}
+.ft_copy{padding:25px 0 20px;}
+.ft_copy:after {display:block;visibility:hidden;clear:both;content:"";}
+.ft_copy_a{color:#fff;float:left;font-size:1.167em;font-weight:bold;padding:0 10px;border-left:1px solid #fff;}
+.ft_copy_a:first-child{border:none;padding-left:0;}
+.ft_company{color:#A7A7A7;}
+.p_ft_info{;border-bottom:1px solid #A7A7A7;padding:0 0 15px;line-height:20px;}
+.p_ft_copy{text-align:center;color:#A7A7A7;padding:15px 0;}
+.email{color:#A7A7A7;}
