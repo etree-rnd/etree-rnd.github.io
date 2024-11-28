@@ -1,17 +1,28 @@
-# The Docker image that will be used to build your app
-image: node:lts
-# Functions that should be executed before the build script is run
+image: node:18
+
+stages:
+  - build
+  - deploy
+
 before_script:
-  - npm i
-pages:
+  - npm install
+
+# Build stage: React 앱 빌드
+build:
+  stage: build
   script:
     - npm run build
-    - mv build public
   artifacts:
     paths:
-      # The folder that contains the files to be exposed at the Page URL
-      - public
-  rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+      - build
+
+# Deploy stage: GitLab Pages에 배포
+deploy:
+  stage: deploy
+  script:
+    - mv build public  # 'build' 디렉터리를 'public' 디렉터리로 이름 변경
+  artifacts:
+    paths:
+      - public  # 'public' 디렉터리 내의 파일을 GitLab Pages에 배포
+  only:
+    - main
