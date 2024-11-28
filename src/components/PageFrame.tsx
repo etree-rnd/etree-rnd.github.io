@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from 'components/PageFrame.module.css';
-import { Link } from 'react-router';
+import { Link, useLocation } from 'react-router';
 
 type PageFrameProps = {
   id: string;
@@ -8,6 +8,7 @@ type PageFrameProps = {
   menu: string;
   isTab?: boolean;
   submenu?: string;
+  submenuItems?: Menu[];
   children: JSX.Element;
 };
 
@@ -15,9 +16,12 @@ export default function PageFrame({
   to,
   menu,
   submenu,
+  submenuItems,
   isTab = true,
   children,
 }: PageFrameProps) {
+  const { pathname } = useLocation();
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.sub_tit}>
@@ -31,16 +35,32 @@ export default function PageFrame({
             </div>
             <div className={styles.lnb}>
               <ul>
-                <li
-                  className={`${styles.lnb_ul_li} ${styles.lnb_ul_li_active}`}
-                >
-                  <Link
-                    to={to}
-                    className={`${styles.lnb_ul_li_a} ${styles.lnb_ul_li_active_a}`}
+                {submenuItems ? (
+                  submenuItems.map((submenu: Menu) => (
+                    <li
+                      key={submenu.id}
+                      className={`${styles.lnb_ul_li} ${submenu.to === pathname ? styles.lnb_ul_li_active : ''}`}
+                    >
+                      <Link
+                        to={submenu.to}
+                        className={`${styles.lnb_ul_li_a} ${styles.lnb_ul_li_active_a}`}
+                      >
+                        {submenu.name}
+                      </Link>
+                    </li>
+                  ))
+                ) : (
+                  <li
+                    className={`${styles.lnb_ul_li} ${styles.lnb_ul_li_active}`}
                   >
-                    {menu}
-                  </Link>
-                </li>
+                    <Link
+                      to={to}
+                      className={`${styles.lnb_ul_li_a} ${styles.lnb_ul_li_active_a}`}
+                    >
+                      {menu}
+                    </Link>
+                  </li>
+                )}
               </ul>
               <p className={styles.cpop}>
                 home &gt; {submenu ? submenu : menu} &gt; {menu}

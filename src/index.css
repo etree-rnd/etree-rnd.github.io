@@ -1,7 +1,3 @@
-/*@import url('assets/css/mobile.css');*/
-@import url('assets/css/default.css');
-@import url('assets/css/style.css');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
