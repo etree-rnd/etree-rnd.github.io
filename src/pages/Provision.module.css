@@ -1,0 +1,11 @@
+.para {list-style: none; margin-top: 10px; border: 0px; outline: 0px; font-size: 1.1em; font-weight: bold; color: rgb(0, 91, 172); line-height: 22.8px; text-align: justify;}
+.t_box {list-style: none; margin: 0px; padding: 15px 0px; border-width: 0px 0px 1px; border-bottom-style: dashed; border-bottom-color: rgb(204, 204, 204); outline: 0px; color: rgb(96, 96, 96); line-height: 22.8px; text-align: justify;}
+.group {list-style: none; margin-bottom: 20px; border: 0px; outline: 0px; font-size: 1.1em; font-weight: bold; color: rgb(51, 51, 51);}
+.contents {list-style: none; margin: 0px; padding: 0px; border: 0px; outline: 0px;}
+.ol {list-style: none; margin: 0px; padding: 0px 0px 0px 15px; border: 0px; outline: 0px;}
+.ol_li {list-style: none; margin: 0px; padding: 0px; border: 0px; outline: 0px;}
+.num {list-style: none; margin: 0px 4px 0px -15px; padding: 0px; border: 0px; outline: 0px;}
+.span {list-style: none; margin: 0px; padding: 0px; border: 0px; outline: 0px;}
+.p1 {list-style: none; border: 0px; outline: 0px; color: rgb(96, 96, 96); line-height: 22.8px; text-align: justify;}
+.p2 {list-style: none; border: 0px; outline: 0px;}
+.p_bold {list-style: none; border: 0px; outline: 0px; font-weight: bold;}
