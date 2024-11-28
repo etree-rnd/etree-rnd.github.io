@@ -1,4 +1,5 @@
 {
+  "homepage": "http://etreesoft.github.io",
   "name": "react-web",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "ph-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -63,6 +66,7 @@
     "@eslint/js": "^9.15.0",
     "eslint": "^9.15.0",
     "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
     "typescript-eslint": "^8.16.0"
   }

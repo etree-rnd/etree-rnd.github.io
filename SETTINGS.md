@@ -14,3 +14,7 @@
 - ~~[React useEffect 사용 title 변경하기](https://studyingych.tistory.com/61)~~
 - [[TypeScript] 리액트 children 타입 지정해주기 - 타입별 특징](https://shape-coding.tistory.com/entry/TypeScript-%EB%A6%AC%EC%95%A1%ED%8A%B8-children-%ED%83%80%EC%9E%85-%EC%A7%80%EC%A0%95%ED%95%B4%EC%A3%BC%EA%B8%B0-%ED%83%80%EC%9E%85%EB%B3%84-%ED%8A%B9%EC%A7%95)
 - [React 페이지 이동 시 스크롤 맨 위로 오게 하는 방법](https://velog.io/@tlatjdgh3778/React-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9D%B4%EB%8F%99-%EC%8B%9C-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EB%A7%A8-%EC%9C%84%EB%A1%9C-%EC%98%A4%EA%B2%8C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+- [[React] gh-pages 배포하기](https://synuns.tistory.com/33)
+- [[React] GitHub Pages로 배포하기](https://enne.tistory.com/10)
+- [React Github page 배포 내가 해냄](https://i-did-it.tistory.com/75)
+- 
