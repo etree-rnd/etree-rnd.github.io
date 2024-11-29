@@ -1,46 +1,16 @@
-# Getting Started with Create React App
+# 이트리소프트 홈페이지 React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`GitHub Pages`에 배포된 버전은 `6f9696bb` 버전이며 이후 버전은 `GitLab Pages`에 적용하기 위해 수정한 내용입니다.
 
-## Available Scripts
+## github pages 빌드 및 배포
 
-In the project directory, you can run:
+`gh-pages` 패키지를 이용해서 배포하는 것으로 배포시 수정이 필요한 내용을 정리합니다.
 
-### `yarn start`
+1. `package.json`의 homepage 속성 값을 `https://etree-rnd.github.io`로 변경합니다.
+2. 코드가 수정된 부분이 있으면 main으로 먼저 커밋합니다.
+3. 수정된 커밋한 코드로 배포하는 명령어는 `yarn deploy -- -m "Deploy React app to GitHub Pages"` 로 실행하면 gh-pages 브랜치로 배포가 진행됩니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## gitlab pages 빌드 및 배포
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. `github pages`에서 수정한 `package.json`의 homepage 속성 값을 `https://etreesoft.gitlab-io`로 변경합니다.
+2. 코드가 수정된 부분이 있으면 main으로 커밋하면 자동으로 빌드 및 배포가 진행됩니다.
