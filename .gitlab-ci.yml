@@ -33,6 +33,8 @@ deploy:
 pages:
   stage: deploy
   script:
+    - rm -rf public
+    - cp build/index.html build/404.html
     - mv build public  # 'build' 디렉터리를 'public' 디렉터리로 이름 변경
   artifacts:
     paths:
