@@ -18,3 +18,4 @@
 - [[React] GitHub Pages로 배포하기](https://enne.tistory.com/10)
 - [React Github page 배포 내가 해냄](https://i-did-it.tistory.com/75)
 - [Gitlab Pages 를 이용하여 무료로 웹사이트 호스팅하기](https://analogcode.tistory.com/27)
+- [React + Gitlab Pages](https://dev.to/jtorbett23/react-gitlab-pages-42l6)
