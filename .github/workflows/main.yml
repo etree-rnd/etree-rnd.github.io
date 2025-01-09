@@ -26,10 +26,10 @@ jobs:
       - name: Copy build directory to server
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.EMOTION_SERVER_HOST }}
-          username: ${{ secrets.EMOTION_SERVER_USER }}
-          password: ${{ secrets.EMOTION_SERVER_PASSWORD }}
-          port: ${{ secrets.EMOTION_SERVER_PORT }}
+          host: ${{ secrets.WWW_SERVER_HOST }}
+          username: ${{ secrets.WWW_SERVER_USER }}
+          password: ${{ secrets.WWW_SERVER_PASSWORD }}
+          port: ${{ secrets.WWW_SERVER_PORT }}
           source: "./build/"
           target: "/home/deploy/www"
 
@@ -37,10 +37,10 @@ jobs:
       - name: Docker-compose down and up as node server restart
         uses: appleboy/ssh-action@v0.1.6
         with:
-          host: ${{ secrets.EMOTION_SERVER_HOST }}
-          username: ${{ secrets.EMOTION_SERVER_USER }}
-          password: ${{ secrets.EMOTION_SERVER_PASSWORD }}
-          port: ${{ secrets.EMOTION_SERVER_PORT }}
+          host: ${{ secrets.WWW_SERVER_HOST }}
+          username: ${{ secrets.WWW_SERVER_USER }}
+          password: ${{ secrets.WWW_SERVER_PASSWORD }}
+          port: ${{ secrets.WWW_SERVER_PORT }}
           script: |
             cd /home/deploy/www
             docker-compose down
