@@ -6,6 +6,7 @@ import Recruit from 'pages/Recruit';
 import Contact from 'pages/Contact';
 import Privacy from 'pages/Privacy';
 import Provision from 'pages/Provision';
+import CompanyNew from "pages/CompanyNew";
 
 export default [
   {
@@ -15,6 +16,10 @@ export default [
   {
     path: '/company',
     component: Company,
+  },
+  {
+    path: '/company-new',
+    component: CompanyNew,
   },
   {
     path: '/business/:id',
