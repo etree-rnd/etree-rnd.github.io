@@ -40,15 +40,6 @@ export default function CompanyNew() {
           IT분야의 핵심기술을 연마하고 전문인력을 양성하여 이를 바탕으로 e-Business 분야에<br/>
           다양한 구축 경험과 노하우를 기반으로 고객과 파트너, 임직원이 동반 성장할 수 있는 밑거름이 되고자 합니다.
         </p>
-        {/*<p className={styles.ctt_con_p}>*/}
-        {/*  <img*/}
-        {/*    src={CompanyContent}*/}
-        {/*    title={`e68cc6d68b4719d5c359c7916712102a_1630856412_1319.jpg`}*/}
-        {/*    alt={`Company`}*/}
-        {/*  />*/}
-        {/*  <br className={styles.ctt_con_p_br} />*/}
-        {/*  &nbsp;*/}
-        {/*</p>*/}
       </>
     </PageFrame>
   );
