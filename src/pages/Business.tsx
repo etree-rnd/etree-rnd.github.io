@@ -67,50 +67,62 @@ export default function Business() {
                 subtitle={'기술과 효율에 집중하는 회사'}
               >
                 <div className={styles.contentsSection}>
-                  <StepSection title={(
+                  <StepSection
+                    title={(
                       <p className={styles.projectTitle}>
                         Project
                       </p>
-                    )} contents={(
+                    )}
+                    titleGroup="titleThin"
+                    contents={(
                       <>
                         e-Commerce 등<br/>
                         특화된 SI, SM서비스
                       </>
                     )}/>
-                    <StepSection title={(
-                      <>
-                        <img src={w3cIcon} alt="W3C Icon" className={styles.htmlIcon}/>
-                        <img src={chromeIcon} alt="Google Chrome Icon" className={styles.htmlIcon}/>
-                        <img src={ieIcon} alt="Microsoft IE Icon" className={styles.htmlIcon}/>
-                        <img src={firefoxIcon} alt="Mozilla Firefox Icon" className={styles.htmlIcon}/>
-                        <img src={safariIcon} alt="Apple Safari Icon" className={styles.htmlIcon}/>
-                        <img src={operaIcon} alt="Opera Icon" className={styles.htmlIcon}/>
-                      </>
-                    )} contents={(
-                      <>
-                        웹표준, 웹접근성 및<br/>
-                        웹 보안준수
-                      </>
-                    )}/>
-                    <StepSection title={(
-                      <>
-                        <div className={`${styles.box} ${styles.uiBgColor}`}>UI</div>
-                        <div className={`${styles.box} ${styles.uxBgColor}`}>UX</div>
-                      </>
-                    )} contents={(
-                      <>
-                        사용자환경에 최적화된<br/>
-                        UI / UX 제공
-                      </>
-                    )}/>
-                    <StepSection title={(
-                      <div className={styles.itSolution}>IT SOLUTION</div>
-                    )} contents={(
-                      <>
-                        솔루션 기반 시스템 구축<br/>
-                        신규 솔루션 기획개발
-                      </>
-                    )}/>
+                    <StepSection
+                      title={(
+                        <>
+                          <img src={w3cIcon} alt="W3C Icon" className={styles.htmlIcon}/>
+                          <img src={chromeIcon} alt="Google Chrome Icon" className={styles.htmlIcon}/>
+                          <img src={ieIcon} alt="Microsoft IE Icon" className={styles.htmlIcon}/>
+                          <img src={firefoxIcon} alt="Mozilla Firefox Icon" className={styles.htmlIcon}/>
+                          <img src={safariIcon} alt="Apple Safari Icon" className={styles.htmlIcon}/>
+                          <img src={operaIcon} alt="Opera Icon" className={styles.htmlIcon}/>
+                        </>
+                      )}
+                      titleGroup="titleThin"
+                      contents={(
+                        <>
+                          웹표준, 웹접근성 및<br/>
+                          웹 보안준수
+                        </>
+                      )}/>
+                    <StepSection
+                      title={(
+                        <>
+                          <div className={`${styles.box} ${styles.uiBgColor}`}>UI</div>
+                          <div className={`${styles.box} ${styles.uxBgColor}`}>UX</div>
+                        </>
+                      )}
+                      titleGroup="titleBold"
+                      contents={(
+                        <>
+                          사용자환경에 최적화된<br/>
+                          UI / UX 제공
+                        </>
+                      )}/>
+                    <StepSection
+                      title={(
+                        <div className={styles.itSolution}>IT SOLUTION</div>
+                      )}
+                      titleGroup="titleBold"
+                      contents={(
+                        <>
+                          솔루션 기반 시스템 구축<br/>
+                          신규 솔루션 기획개발
+                        </>
+                      )}/>
                 </div>
               </BorderContainer>
             </>
