@@ -1,5 +1,5 @@
 import React from 'react';
-import CompanyContent from 'assets/images/contents/e68cc6d68b4719d5c359c7916712102a_1630856412_1319.jpg';
+import image01 from 'assets/images/contents/image_0001.png';
 import PageFrame from 'components/PageFrame';
 import { useDefaultData } from '../commons/useDefaultData';
 import styles from 'pages/CompanyNew.module.css';
@@ -17,6 +17,9 @@ export default function CompanyNew() {
           ㈜이트리소프트는 고객의 성공과 가치 창출을 위한<br/>
           IT서비스 파트너로서 성장하겠습니다.
         </h1>
+        <div className={styles.imgArea}>
+          <img src={image01} alt="사무실 이미지"/>
+        </div>
         <p className={styles.subTitle}>
           <b className={styles.darkBlueColor}>IT서비스</b>를 통한 <b className={styles.darkBlueColor}>사람, 기업(고객, 파트너)</b>이라는 <b className={styles.darkBrownColor}>나무(Tree)</b>로 뿌리내려<br/>
           더블어 성장하는 기업으로 발전시키고자 합니다.
