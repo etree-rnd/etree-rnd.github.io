@@ -1,12 +1,11 @@
 import Home from 'pages/Home';
-import Company from 'pages/Company';
 import Business from 'pages/Business';
 import Work from 'pages/Work';
 import Recruit from 'pages/Recruit';
 import Contact from 'pages/Contact';
 import Privacy from 'pages/Privacy';
 import Provision from 'pages/Provision';
-import CompanyNew from "pages/CompanyNew";
+import Company from "pages/Company";
 
 export default [
   {
@@ -16,10 +15,6 @@ export default [
   {
     path: '/company',
     component: Company,
-  },
-  {
-    path: '/company-new',
-    component: CompanyNew,
   },
   {
     path: '/business/:id',

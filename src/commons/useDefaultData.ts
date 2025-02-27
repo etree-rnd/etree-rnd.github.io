@@ -1,7 +1,7 @@
 export function useDefaultData() {
   const menus: Menu[] = [
     // { id: 'com', to: '/company', name: 'COMPANY' },
-    { id: 'com', to: '/company-new', name: 'COMPANY' },
+    { id: 'com', to: '/company', name: 'COMPANY' },
     {
       id: 'bus',
       to: '/business/si',
