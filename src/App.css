@@ -3,10 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1&family=Noto+Sans+KR:wght@100..900&display=swap');
 
 :root {
+    --white-color: #fff;
     --gray-color: #D9D9D9;
     --dark-blue-color: #214F8A;
     --sky-blue-color: #7CBDC1;
     --dark-brown-color: #51091D;
+    --light-sky-blue-color: #97A8F6;
+    --dark-green-color: #7BBCC0;
+    --sism-step-red-color: #D82929;
+    --sism-blue-color: #0738A7;
+    --light-red-color: #FF4848;
+    --navy-blue-color: #1F4E78;
     --font-thin: 100;
     --font-extra-light: 200;
     --font-light: 300;
