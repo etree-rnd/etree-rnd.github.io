@@ -1,7 +1,49 @@
-.ctt_con_p {
-  text-align: center;
+.section {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-.ctt_con_p_br {
-  clear: both;
+.contentsSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projectTitle {
+  font-size: 1.2rem;
+  font-weight: var(--font-bold);
+}
+
+.htmlIcon {
+  height: 1.1rem;
+  margin: auto 0.05rem;
+}
+
+.box {
+  display: inline-block;
+  width: 3.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  color: var(--white-color);
+  border: 0.1rem solid var(--gray-color);
+}
+
+.uiBgColor {
+  background-color: var(--light-red-color);
+}
+
+.uxBgColor {
+  background-color: var(--navy-blue-color);
+}
+
+.itSolution {
+  font-size: 1.1rem;
+  font-weight: var(--font-bold);
+  background-image: url("assets/images/hexagon.png");
+  background-repeat: no-repeat;
+  background-position: right 1.2rem center;
+  background-size: 3rem auto;
 }
