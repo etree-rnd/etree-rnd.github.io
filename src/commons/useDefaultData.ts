@@ -9,7 +9,6 @@ export function useDefaultData() {
       children: [
         { id: 'bus-si', to: '/business/si', name: 'SI/SM' },
         { id: 'bus-sol', to: '/business/solution', name: 'Solution' },
-        { id: 'bus-edu', to: '/business/edu', name: 'IT교육사업' },
       ],
     },
     { id: 'work', to: '/work', name: 'WORK' },
