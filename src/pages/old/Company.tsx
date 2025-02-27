@@ -1,7 +1,7 @@
 import React from 'react';
 import CompanyContent from 'assets/images/contents/e68cc6d68b4719d5c359c7916712102a_1630856412_1319.jpg';
 import PageFrame from 'components/PageFrame';
-import { useDefaultData } from '../commons/useDefaultData';
+import { useDefaultData } from 'commons/useDefaultData';
 import styles from 'pages/CompanyOld.module.css';
 
 export default function CompanyOld() {
