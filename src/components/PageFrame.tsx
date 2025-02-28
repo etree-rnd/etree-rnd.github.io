@@ -9,7 +9,8 @@ type PageFrameProps = {
   isTab?: boolean;
   submenu?: string;
   submenuItems?: Menu[];
-  children: JSX.Element;
+  description?: string | React.ReactNode;
+  children: React.ReactNode;
 };
 
 export default function PageFrame({
@@ -18,6 +19,7 @@ export default function PageFrame({
   submenu,
   submenuItems,
   isTab = true,
+  description,
   children,
 }: PageFrameProps) {
   const { pathname } = useLocation();
@@ -27,10 +29,13 @@ export default function PageFrame({
       <div className={styles.sub_tit}>
         <h2 className={styles.sub_tit_h2}>{submenu ? submenu : menu}</h2>
       </div>
+      {description && (
+        <div className={styles.description}>{description}</div>
+      )}
       <div className={styles.cons_wrap}>
         {isTab && (
           <>
-            <div className={styles.cpo}>
+            <div className={`${styles.cpo} ${styles.cpo_description}`}>
               <h2 className={styles.cpo_h2}>{menu}</h2>
             </div>
             <div className={styles.lnb}>

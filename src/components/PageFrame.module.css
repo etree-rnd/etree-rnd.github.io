@@ -30,6 +30,10 @@
   overflow: hidden;
 }
 
+.cpo_description {
+  margin-top: 1rem;
+}
+
 .cpo_h2 {
   display: none;
   float: left;
@@ -131,4 +135,10 @@
 .ctt_con {
   padding: 10px 0;
   line-height: 2em
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
