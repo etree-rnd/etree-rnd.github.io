@@ -1,8 +1,10 @@
-
-.ctt_con_p {
-  text-align: center;
+.container {
+  margin-bottom: 2rem;
 }
 
-.ctt_con_p_br {
-  clear: both;
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
