@@ -22,9 +22,9 @@ export default function BorderContainer({borderColor, steps, title, subtitle, ch
         <p className={styles.subTitle}>
           {subtitle}
         </p>
-        <p className={styles.description}>
+        <div className={styles.description}>
           {children}
-        </p>
+        </div>
       </div>
     </>
   );
