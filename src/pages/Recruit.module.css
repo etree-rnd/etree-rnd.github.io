@@ -8,3 +8,27 @@
   font-size: 1.5rem;
   line-height: 2rem;
 }
+
+.sectionArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 0.15rem solid var(--gray-color);
+  background-color: var(--white-color);
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 56rem;
+}
+
+.contents {
+  font-size: 0.89rem;
+}
+
+.contentsList {
+  list-style-position: outside;
+  padding-left: 1rem;
+}
+
+.contents li {
+  list-style-type: "- ";
+}
