@@ -7,10 +7,10 @@ import { ImMobile2 } from "react-icons/im";
 import { BsCartFill } from "react-icons/bs";
 import { FaArrowsAltH } from "react-icons/fa";
 import { FaArrowsAltV } from "react-icons/fa";
-import ServerIcon from 'assets/images/server_icon.png'
 import FrontOffice from "./FrontOffice";
 import CommercePlatform from "./CommercePlatform";
 import InfraSystem from "./InfraSystem";
+import OperationOffice, {OperationOfficeProps} from "./OperationOffice";
 
 export default function ECommercePlatform(): React.ReactElement {
   const icons: React.ElementType[] = [
@@ -23,8 +23,12 @@ export default function ECommercePlatform(): React.ReactElement {
   const ArrowV = FaArrowsAltV as React.ElementType;
   const arrowList1: number[] = [1,2,3,4];
   const arrowList2: number[] = [1,2,3,4,5,6,7,8,9];
-  // const infraList: string[] = ['ERP', 'PLM', 'SCM', 'CRM', 'BI', '검색'];
-  // const systemList: string[] = ['입점사', '제휴사', 'P/G', '인증기관'];
+  const arrowList3: number[] = [1,2,3];
+  const systemList: OperationOfficeProps[] = [
+    { name: 'CS Admin (CS)' , items: ['회원정보', '상담관리', '상담처리', '상담업무관리'] },
+    { name: 'Back Office (BO)' , items: ['회원/프로모션', '상품/전시', '주문/클레임', '배송/물류', '제휴관리', '정산/통계', 'KPI 관리', '업체/계약'] },
+    { name: 'Partner Office (PO)' , items: ['상품관리', '전시관리', '주문/클레임', '배송/물류', '매출/정산', '통계'] },
+  ];
 
   return (
     <section className={styles.mainContainer}>
@@ -56,19 +60,17 @@ export default function ECommercePlatform(): React.ReactElement {
           <InfraSystem />
         </main>
       </article>
-      <article>
-        <ArrowH size={25} color="grey" />
+      <article className={styles.heightBetween}>
+        {arrowList3.map((number: number) => (
+          <span key={number} className={styles.sysBetweenArrow}>
+            <ArrowH size={25} color="grey" />
+          </span>
+        ))}
       </article>
-      <article>
-        <section>
-          <h1 className={`${styles.title}`}>CS Admin (CS)</h1>
-        </section>
-        <section>
-          <h1 className={`${styles.title}`}>Back Office (BO)</h1>
-        </section>
-        <section>
-          <h1 className={`${styles.title}`}>Partner Office (PO)</h1>
-        </section>
+      <article className={styles.osArea}>
+        {systemList.map(({name, items}: OperationOfficeProps, index: number) => (
+          <OperationOffice key={index} name={name} items={items} />
+        ))}
       </article>
     </section>
   );

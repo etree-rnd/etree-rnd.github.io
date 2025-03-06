@@ -63,3 +63,19 @@
         }
     }
 }
+
+.heightBetween {
+    display: flex;
+    flex-direction: column;
+}
+
+.sysBetweenArrow {
+    margin-top: 7rem;
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.osArea {
+    margin-top: 1em;
+}

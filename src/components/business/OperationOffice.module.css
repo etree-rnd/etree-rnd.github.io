@@ -1,0 +1,30 @@
+.container {
+    width: 11rem;
+    background-color: var(--light-gray-color);
+    border: 0.1rem solid var(--gray-color);
+    padding: 0.5rem 1rem 0.6rem;
+    margin-top: 1.4rem;
+}
+
+.title {
+    font-size: 0.8rem;
+    font-weight: var(--font-bold);
+}
+
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+
+.item {
+    width: 5.4rem;
+    height: 2rem;
+    margin: 0.13rem 0;
+    border: 0.13rem solid var(--dark-gray-color);
+    background-color: var(--white-color);
+    text-align: center;
+    line-height: 1.74rem;
+    box-sizing: border-box;
+}
