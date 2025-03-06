@@ -1,0 +1,36 @@
+.container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area {
+    background-color: var(--dark-sky-blue-color);
+    color: var(--white-color);
+    display: flex;
+    padding: 0.2rem 0.5rem;
+}
+
+.section {
+    display: flex;
+    & > li {
+        text-align: center;
+        padding: 0.1rem;
+    }
+}
+
+.title {
+    padding: 0.1rem;
+    line-height: 1rem;
+    margin-right: 0.3rem;
+}
+
+.serverList {
+    margin: 0.3rem 0.08rem 0;
+    /*width: 1.8em;*/
+}
+
+.serverIcon {
+    width: 1.8rem;
+}

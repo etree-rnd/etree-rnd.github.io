@@ -10,6 +10,7 @@ import { FaArrowsAltV } from "react-icons/fa";
 import ServerIcon from 'assets/images/server_icon.png'
 import FrontOffice from "./FrontOffice";
 import CommercePlatform from "./CommercePlatform";
+import InfraSystem from "./InfraSystem";
 
 export default function ECommercePlatform(): React.ReactElement {
   const icons: React.ElementType[] = [
@@ -22,8 +23,8 @@ export default function ECommercePlatform(): React.ReactElement {
   const ArrowV = FaArrowsAltV as React.ElementType;
   const arrowList1: number[] = [1,2,3,4];
   const arrowList2: number[] = [1,2,3,4,5,6,7,8,9];
-  const infraList: string[] = ['ERP', 'PLM', 'SCM', 'CRM', 'BI', '검색'];
-  const systemList: string[] = ['입점사', '제휴사', 'P/G', '인증기관'];
+  // const infraList: string[] = ['ERP', 'PLM', 'SCM', 'CRM', 'BI', '검색'];
+  // const systemList: string[] = ['입점사', '제휴사', 'P/G', '인증기관'];
 
   return (
     <section className={styles.mainContainer}>
@@ -52,30 +53,7 @@ export default function ECommercePlatform(): React.ReactElement {
                 </span>
             ))}
           </article>
-          <section className={`${styles.systemContainer}`}>
-            <article className={`${styles.systemArea}`}>
-              <h2 className={styles.systemTitle}>내부<br/>인프라</h2>
-              <ul className={`${styles.systemSection}`}>
-                {infraList.map((name, index) => (
-                  <li key={index} className={styles.serverList}>
-                    <img src={ServerIcon} alt={'Server'} className={styles.serverIcon}/><br/>
-                    {name}
-                  </li>
-                ))}
-              </ul>
-            </article>
-            <article className={`${styles.systemArea}`}>
-              <h2 className={styles.systemTitle}>내부<br/>인프라</h2>
-              <ul className={`${styles.systemSection}`}>
-                {systemList.map((name, index) => (
-                  <li key={index} className={styles.serverList}>
-                    <img src={ServerIcon} alt={'Server'} className={styles.serverIcon}/><br/>
-                    {name}
-                  </li>
-                ))}
-              </ul>
-            </article>
-          </section>
+          <InfraSystem />
         </main>
       </article>
       <article>

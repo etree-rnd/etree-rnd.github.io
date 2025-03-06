@@ -1,5 +1,5 @@
 
-.cpBorder {
+.border {
     margin-top: 0.5rem;
     border: 0.1rem solid var(--gray-color);
     border-radius: 0.4rem;
@@ -10,7 +10,7 @@
     }
 }
 
-.cpArea {
+.area {
     border: 0.1rem solid var(--gray-color);
     padding: 0.3rem 0.8rem 0.3rem 0.8rem;
     background-color: var(--light-gray-color);
@@ -99,7 +99,7 @@
     transform: scaleX(90%);
 }
 
-.cpArrowArea {
+.arrowArea {
     width: 1.4rem;
     text-align: center;
     & > div {
@@ -110,6 +110,6 @@
     }
 }
 
-.cpArrowH {
+.arrowH {
     transform: scaleX(150%);
 }

@@ -13,10 +13,10 @@ export default function CommercePlatform({ Arrow } : CommercePlatformProps) {
   const tmList: string[] = ['Transaction', 'Security', 'Resource', 'Interface', 'Template', 'Monitoring', 'Cache'];
   const tmList2: string[] = ['Spring F/W', 'MyBatis', 'Spring Batch', 'UI F/W', 'Logging'];
   return (
-    <section className={styles.cpBorder}>
+    <section className={styles.border}>
       <h1 className={`${styles.title}`}>Commerce Platform</h1>
       <ul>
-        <li className={`${styles.cpArea}`}>
+        <li className={`${styles.area}`}>
           <h2>Integration F/W</h2>
           <ul className={`${styles.detailContents} ${styles.integrationContents}`}>
             {intFwList.map((item, i) => (
@@ -24,15 +24,15 @@ export default function CommercePlatform({ Arrow } : CommercePlatformProps) {
             ))}
           </ul>
         </li>
-        <li className={styles.cpArrowArea}>
+        <li className={styles.arrowArea}>
           {arrowList.map((number: number) => (
-            <div key={number} className={styles.cpArrowH}>
+            <div key={number} className={styles.arrowH}>
               <Arrow size={15} color="grey" />
             </div>
           ))}
         </li>
         <li>
-          <article className={`${styles.cpArea}`}>
+          <article className={`${styles.area}`}>
             <h2>Commerce Platform Service (CPS)</h2>
             <ul className={`${styles.detailContents} ${styles.cpsContents}`}>
               {cpsList.map((item, i) => (
@@ -40,7 +40,7 @@ export default function CommercePlatform({ Arrow } : CommercePlatformProps) {
               ))}
             </ul>
           </article>
-          <article className={`${styles.cpArea} ${styles.cmArea}`}>
+          <article className={`${styles.area} ${styles.cmArea}`}>
             <h2>Commerce Modules</h2>
             <ul className={`${styles.detailContents} ${styles.cmContents}`}>
               {cmsList.map((item, i) => (
@@ -50,7 +50,7 @@ export default function CommercePlatform({ Arrow } : CommercePlatformProps) {
           </article>
         </li>
       </ul>
-      <article className={`${styles.cpArea} ${styles.tmArea} ${styles.tmContents}`}>
+      <article className={`${styles.area} ${styles.tmArea} ${styles.tmContents}`}>
         <h2>Technical Modules</h2>
         <ul className={`${styles.detailContents}`}>
           {tmList.map((item, i) => (
