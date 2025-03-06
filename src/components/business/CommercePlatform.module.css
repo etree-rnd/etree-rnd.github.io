@@ -1,0 +1,115 @@
+
+.cpBorder {
+    margin-top: 0.5rem;
+    border: 0.1rem solid var(--gray-color);
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.8rem 0.8rem 0.8rem;
+    & > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.cpArea {
+    border: 0.1rem solid var(--gray-color);
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    background-color: var(--light-gray-color);
+    color: var(--deep-dark-gray-color);
+}
+
+.cmArea, .tmArea {
+    margin-top: 0.5rem;
+}
+
+.detailContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    & > li {
+        border: 0.1rem solid var(--gray-color);
+        background-color: var(--white-color);
+        color: var(--deep-dark-gray-color);
+        text-align: center;
+        font-size: 0.7rem;
+        line-height: 2rem;
+        box-sizing: content-box;
+    }
+}
+
+.integrationContents {
+    flex-direction: column;
+    & > li {
+        width: 7rem;
+        height: 2rem;
+        margin-top: 0.8rem;
+        &:first-child {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.cpsContents {
+    margin-top: 0.2rem;
+    padding-bottom: 0;
+    & > li {
+        width: 5rem;
+        height: 2rem;
+        margin-left: 0.5rem;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.cmContents {
+    flex-direction: column;
+    width: 17rem;
+    & > li {
+        margin-top: 0.15rem;
+        width: 18rem;
+        height: 2rem;
+    }
+}
+
+.tmContents > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > li {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        margin-left: 0.2rem;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &:last-of-type {
+        margin-top: 0.2rem;
+        & > li {
+            padding-left: 1.05rem;
+            padding-right: 1.05rem;
+        }
+    }
+}
+
+.fontStretch90p {
+    transform: scaleX(90%);
+}
+
+.cpArrowArea {
+    width: 1.4rem;
+    text-align: center;
+    & > div {
+        margin-top: 2.7rem;
+        &:last-of-type {
+            margin-top: 4rem;
+        }
+    }
+}
+
+.cpArrowH {
+    transform: scaleX(150%);
+}

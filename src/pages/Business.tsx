@@ -4,6 +4,7 @@ import PageFrame from 'components/PageFrame';
 import styles from 'pages/Business.module.css';
 import { useLocation } from 'react-router';
 import Sism from 'components/business/Sism';
+import Solution from 'components/business/Solution';
 
 export default function Business() {
   const { menus } = useDefaultData();
@@ -28,7 +29,7 @@ export default function Business() {
         <>
           <div className={styles.section}>
             {pathname === '/business/si' && (<Sism />)}
-            {pathname === '/business/solution' && (<><div></div></>)}
+            {pathname === '/business/solution' && (<Solution />)}
           </div>
         </>
       </PageFrame>

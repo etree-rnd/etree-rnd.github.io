@@ -2,6 +2,7 @@
   "homepage": "http://www.etreesoft.com/",
   "name": "react-web",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -9,11 +10,15 @@
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
+    "@types/react": "^18.3.18",
     "@types/react-dom": "^18.0.0",
+    "@types/react-icons": "^2.2.7",
     "eslint-config-prettier": "^9.1.0",
+    "npm": "^11.1.0",
+    "nvm": "^0.0.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "prettier": "^3.4.1",
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
@@ -24,7 +29,8 @@
     "swiper": "^11.1.15",
     "tailwindcss": "^3.4.15",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
