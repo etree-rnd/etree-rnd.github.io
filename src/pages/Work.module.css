@@ -2,6 +2,19 @@
     margin-bottom: 2rem;
 }
 
+.imageArea {
+    background-color: var(--charcoal-color);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+
+.iconSmall {
+    display: inline-block;
+    transform: scaleX(80%);
+}
+
 .description {
     display: flex;
     justify-content: center;
@@ -17,9 +30,9 @@
 }
 
 .workYear {
-    font-size: 1.5rem;
-    font-weight: var(--font-medium);
-    margin: 2rem 0 0.5rem;
+    font-size: 2rem;
+    font-weight: var(--font-bold);
+    margin: 2rem 0 1rem;
 }
 
 .workTable {
@@ -28,18 +41,8 @@
     width:100%;
 }
 
-.workTableTh {
-    border: 0.1rem solid var(--gray-color);
-    padding: 0.2rem;
-    font-size: 1.2rem;
-    background: var(--navy-blue-color);
-    color: var(--white-color);
-    &:nth-of-type(1) {
-        width: 15rem;
-    }
-    &:nth-of-type(2) {
-        width: 15rem;
-    }
+.workTableTr {
+    height: 4.5rem;
 }
 
 .workTableTd {
@@ -50,6 +53,12 @@
     &:last-child {
         text-align: left;
         padding-left: 1rem;
+    }
+    &:nth-of-type(1) {
+        width: 15rem;
+    }
+    &:nth-of-type(2) {
+        width: 15rem;
     }
 }
 
