@@ -1,5 +1,15 @@
 .menuContainer {
     margin: 2rem auto;
+    padding-left: 10rem;
+    display: flex;
+}
+
+.menuArea {
+    margin-left: 2rem;
+}
+
+.image {
+    width: 5rem;
 }
 
 .menuTitle {
