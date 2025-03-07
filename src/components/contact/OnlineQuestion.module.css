@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.formArea {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 0;
+    & > li {
+        padding: 0.2rem 0;
+        height: 7rem;
+    }
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    width: 33rem;
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    margin-top: 0.8rem;
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.textareaForm {
+    width: 33rem;
+    height: 100%;
+    font-size: 0.9rem;
+    resize: none;
+    padding: 0.2rem;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.button {
+    background-color: var(--dark-blue-color);
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
