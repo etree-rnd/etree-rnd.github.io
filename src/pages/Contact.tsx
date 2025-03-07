@@ -2,6 +2,7 @@ import React from 'react';
 import { useDefaultData } from 'commons/useDefaultData';
 import PageFrame from 'components/PageFrame';
 import styles from 'pages/Contact.module.css';
+import OnlineQuestion from "../components/contact/OnlineQuestion";
 
 export default function Contact() {
   const { menus, company } = useDefaultData();
@@ -24,6 +25,7 @@ export default function Contact() {
           <br />- FAX:{fax}
           <br />- E-MAIL: {email}
         </div>
+        <OnlineQuestion />
       </div>
     </PageFrame>
   );
