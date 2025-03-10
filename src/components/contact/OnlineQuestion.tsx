@@ -21,6 +21,23 @@ export default function OnlineQuestion() {
     message: '',
   });
 
+  const emptyDataCheck = ({from_name, phone, email, message}: formProps): string => {
+    console.log('from_name', from_name);
+    if (from_name === null || from_name === '') {
+      return '이름/직급을 입력해주세요.';
+    }
+    if (phone === null || phone === '') {
+      return '전화번호를 입력해주세요.';
+    }
+    if (email === null || email === '') {
+      return '이메일 주소를 입력해주세요.';
+    }
+    if (message === null || message === '') {
+      return '문의 내용을 입력해주세요.';
+    }
+    return '';
+  }
+
   const checkEmail = (email: string) => /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email);
   const checkPhone = (phone: string) => /^0\d{1,2}-\d{3,4}-\d{4}$/.test(phone);
 
@@ -38,8 +55,12 @@ export default function OnlineQuestion() {
 
   const sendMail = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
-    console.log(data)
+    const result = emptyDataCheck(data);
+    console.log('result', result);
+    if(result !== '') {
+      showToastMsg(result);
+      return;
+    }
 
     if(!checkPhone(data.phone)) {
       showToastMsg('전화번호를 확인해주시기 바랍니다.');
