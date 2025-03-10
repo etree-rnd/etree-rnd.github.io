@@ -5,6 +5,7 @@ import styles from 'pages/Business.module.css';
 import { useLocation } from 'react-router';
 import Sism from 'components/business/Sism';
 import Solution from 'components/business/Solution';
+import BusinessTopImg from 'assets/images/business_top.png';
 
 export default function Business() {
   const { menus } = useDefaultData();
@@ -27,6 +28,7 @@ export default function Business() {
         )}
       >
         <>
+          <img src={BusinessTopImg} alt={'businessTopImg'} />
           <div className={styles.section}>
             {pathname === '/business/si' && (<Sism />)}
             {pathname === '/business/solution' && (<Solution />)}
