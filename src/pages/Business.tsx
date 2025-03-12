@@ -1,44 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import { useDefaultData } from '../commons/useDefaultData';
-import PageFrame from '../components/PageFrame';
+import React from 'react';
+import { useDefaultData } from 'commons/useDefaultData';
+import PageFrame from 'components/PageFrame';
 import styles from 'pages/Business.module.css';
-import BusinessSiSm from 'assets/images/contents/e68cc6d68b4719d5c359c7916712102a_1630858169_6475.jpg';
-import BusinessSolution from 'assets/images/contents/e68cc6d68b4719d5c359c7916712102a_1698624000_1612.jpg';
-import BusinessEdu from 'assets/images/contents/e68cc6d68b4719d5c359c7916712102a_1630860685_3637.jpg';
 import { useLocation } from 'react-router';
+import Sism from 'components/business/Sism';
+import Solution from 'components/business/Solution';
+import BusinessTopImg from 'assets/images/business_top.png';
 
 export default function Business() {
   const { menus } = useDefaultData();
   const menu = menus.filter((menu) => menu.id === 'bus');
   const { id, to, name, children } = menu[0];
   const { pathname } = useLocation();
-  const [viewImg, setViewImg] = useState('');
-
-  useEffect(() => {
-    switch (pathname) {
-      case '/business/solution':
-        setViewImg(BusinessSolution);
-        break;
-      case '/business/edu':
-        setViewImg(BusinessEdu);
-        break;
-      default:
-        setViewImg(BusinessSiSm);
-        break;
-    }
-  }, [pathname]);
 
   return (
-    <PageFrame id={id} to={to} menu={name} submenuItems={children}>
-      <p className={styles.ctt_con_p}>
-        <img
-          src={viewImg}
-          title={`e68cc6d68b4719d5c359c7916712102a_1630856412_1319.jpg`}
-          alt={`Company`}
-        />
-        <br className={styles.ctt_con_p_br} />
-        &nbsp;
-      </p>
+    <PageFrame
+      id={id}
+      to={to}
+      menu={name}
+      submenuItems={children}
+    >
+      <>
+        <img src={BusinessTopImg} alt={'businessTopImg'} />
+        <p className={styles.description}>
+          이트리소프트는 금융 및 e-Commerce 등에서 풍부한 경험과 노하우를 보유하고 있으며<br/>
+          이미 다양한 프로젝트를 통해 우수한 평가를 받았고 현재도 여러 프로젝트에서 좋은 성과를 만들어 가고 있습니다.
+        </p>
+        <div className={styles.section}>
+          {pathname === '/business/si' && (<Sism />)}
+          {pathname === '/business/solution' && (<Solution />)}
+        </div>
+      </>
     </PageFrame>
   );
 }

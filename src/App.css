@@ -1,22 +1,145 @@
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-.fz_gallery_list .fz_gallery_li_wrap .fz_gallery_etc{display:none !important;}
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {
+    --white-color: #fff;
+    --light-gray-color: #E5E5E5;
+    --gray-color: #D9D9D9;
+    --dark-gray-color: #A1A1A1;
+    --deep-dark-gray-color: #525661;
+    --charcoal-color: #404040;
+    --dark-blue-color: #214F8A;
+    --light-sky-blue-color: #97A8F6;
+    --sky-blue-color: #7CBDC1;
+    --dark-sky-blue-color: #54ADF0;
+    --dark-brown-color: #51091D;
+    --dark-green-color: #7BBCC0;
+    --sism-step-red-color: #D82929;
+    --sism-blue-color: #0738A7;
+    --light-red-color: #FF4848;
+    --navy-blue-color: #1F4E78;
+    --font-thin: 100;
+    --font-extra-light: 200;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --font-extra-bold: 800;
+    --font-black: 900;
+    --font-noto-sans: "Noto Sans KR";
+}
+
+.fz_gallery_list .fz_gallery_li_wrap .fz_gallery_etc{
+    display:none !important;
+}
+
 /* 초기화 */
-html {overflow-y:scroll}
-body {margin:0;padding:0;font-size:0.75em;font-family:'Nanum Gothic', sans-serif;}
-html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
-h1, h2, h3, h4, h5, h6 {font-size:1em;font-family:'Nanum Gothic', sans-serif;}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
-ul,ol,li,dl,dt,dd{list-style:none;margin:0;padding:0}
-nav ul{margin-right:15px;list-style:none;}
-#ft ul {margin:0;padding:0;list-style:none}
-legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
-label, input, button, select, img {vertical-align:middle}
-input, button {margin:0;padding:0;font-family:'Nanum Gothic', sans-serif;;font-size:1em}
-button {cursor:pointer}
-textarea, select {font-family:'Nanum Gothic', sans-serif;font-size:1em}
-select {margin:0}
-p {margin:0;padding:0;word-break:break-all}
-hr {display:none}
-pre {overflow-x:scroll;font-size:1.1em}
-a:link, a:visited, a:hover, a:focus, a:active {text-decoration:none;}
+html {
+    overflow-y:scroll
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-size:0.75em;
+    font-family: var(--font-noto-sans), serif;
+    font-optical-sizing: auto;
+    font-weight: var(--font-regular);
+    font-style: normal;
+}
+
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size:1em;
+    font-family: var(--font-noto-sans), serif;
+    font-optical-sizing: auto;
+    font-weight: var(--font-regular);
+    font-style: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+ul,ol,li,dl,dt,dd{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    margin-right:15px;
+    list-style:none;
+}
+
+#ft ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+legend {
+    position:absolute;
+    margin:0;
+    padding:0;
+    font-size:0;
+    line-height:0;
+    text-indent:-9999em;
+    overflow:hidden;
+}
+
+label, input, button, select, img {
+    vertical-align:middle;
+}
+
+input, button {
+    margin:0;
+    padding:0;
+    font-family: var(--font-noto-sans), serif;
+    font-optical-sizing: auto;
+    font-weight: var(--font-regular);
+    font-style: normal;
+    font-size:1em;
+}
+
+button {
+    cursor:pointer;
+}
+
+textarea, select {
+    font-family: var(--font-noto-sans), serif;
+    font-optical-sizing: auto;
+    font-weight: var(--font-regular);
+    font-style: normal;
+    font-size:1em;
+}
+
+select {
+    margin:0;
+}
+
+p {
+    margin:0;
+    padding:0;
+    word-break:break-all;
+}
+
+hr {
+    display:none;
+}
+
+pre {
+    overflow-x:scroll;
+    font-size:1.1em;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+    text-decoration:none;
+}

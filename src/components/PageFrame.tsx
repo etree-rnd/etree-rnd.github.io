@@ -9,7 +9,7 @@ type PageFrameProps = {
   isTab?: boolean;
   submenu?: string;
   submenuItems?: Menu[];
-  children: JSX.Element;
+  children: React.ReactNode;
 };
 
 export default function PageFrame({
@@ -30,7 +30,7 @@ export default function PageFrame({
       <div className={styles.cons_wrap}>
         {isTab && (
           <>
-            <div className={styles.cpo}>
+            <div className={`${styles.cpo} ${styles.cpo_description}`}>
               <h2 className={styles.cpo_h2}>{menu}</h2>
             </div>
             <div className={styles.lnb}>

@@ -1,0 +1,23 @@
+.container {
+    width: 18rem;
+    margin: auto 0.8rem;
+    padding: 1rem 0.5rem;
+    border-width: 0.3rem;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-color: var(--dark-gray-color);
+    box-sizing: border-box;
+}
+
+.step {
+    color: var(--sism-step-red-color);
+    font-weight: var(--font-bold);
+    font-size: 1.5rem;
+}
+
+.contents {
+    font-size: 1.4rem;
+    font-weight: var(--font-bold);
+    line-height: 1.7rem;
+    margin-top: 0.5rem;
+}

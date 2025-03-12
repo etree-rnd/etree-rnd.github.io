@@ -1,0 +1,45 @@
+.menuContainer {
+    margin: 3rem auto;
+    padding-left: 10rem;
+    display: flex;
+}
+
+.menuArea {
+    margin-left: 2rem;
+}
+
+.image {
+    width: 5rem;
+}
+
+.menuTitle {
+    font-size: 1.5rem;
+    font-weight: var(--font-bold);
+    color: var(--white-color);
+    margin-bottom: 0.5rem;
+    -webkit-text-stroke: 1px var(--navy-blue-color);
+    & > a:link, > a:visited {
+        color: var(--white-color);
+        -webkit-text-stroke: 1px var(--navy-blue-color);
+    }
+    & > a:hover {
+        color: var(--navy-blue-color);
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            height: 1rem;
+            width: 100%;
+            background-color: var(--light-sky-blue-color);
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+}
+
+.contents {
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+}

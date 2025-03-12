@@ -1,23 +1,27 @@
-.idx_wrapper {
+.mainContainer {
+  margin: 0 auto 2rem;
+}
+
+.idxWrapper {
   width: 100%;
   min-width: 1100px;
   zoom: 1;
 }
 
-.idx_wrapper:after {
+.idxWrapper:after {
   display: block;
   visibility: hidden;
   clear: both;
   content: ""
 }
 
-.main_bn {
+.mainBanner {
   background: #f1f1f1;
   position: relative;
   width: 100% !important
 }
 
-.main_bn_wf {
+.mainBannerWrapper {
   width: 1348px;
   height: 550px;
   margin: 0 auto;
@@ -27,75 +31,49 @@
   display: table;
 }
 
-.main_bn_bg1 {
+.mainBannerBackground1 {
   background: url(../assets/images/bn01.jpg) no-repeat 50% 50%;
+  -webkit-background-size: cover;
 }
 
-.main_bn_bg2 {
+.mainBannerBackground2 {
   background: url(../assets/images/bn02.jpg) no-repeat 50% 50%;
 }
 
-.main_bn_bg3 {
+.mainBannerBackground3 {
   background: url(../assets/images/mainbn.jpg) no-repeat 50% 50%;
 }
 
-.bx_wrapper {
+.bxWrapper {
   max-width: 100%;
 }
 
-.bx_viewport {
+.bxViewport {
   width: 100%;
   overflow: hidden;
   position: relative;
   height: 550px;
 }
 
-.idx_container {
-  margin: 0 auto;
-  width: 100%;
-  background: #1c577b
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: var(--font-bold);
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
-.idx_container:after {
-  display: block;
-  visibility: hidden;
-  clear: both;
-  content: ""
+.menuArea {
+  width: 80rem;
+  margin: 1rem auto;
 }
 
-.quck_wrap {
-  width: 100%;
-  height: 250px;
-  margin: 0 auto;
-  background: url(../assets/images/quck_wrap.jpg) no-repeat 50% 50%;
-}
-
-.inner_quck {
-  width: 1100px;
-  height: 250px;
-  margin: 0 auto;
-}
-
-.quck {
-  display: block;
-  width: 275px;
-  height: 211px;
-  float: left;
-  margin-top: 39px;
-}
-
-.quck_a {
-  background: url(../assets/images/quck0.jpg) no-repeat 50% 50%;
-}
-
-.quck_b {
-  background: url(../assets/images/quck1.jpg) no-repeat 50% 50%;
-}
-
-.quck_c {
-  background: url(../assets/images/quck2.jpg) no-repeat 50% 50%;
-}
-
-.quck_d {
-  background: url(../assets/images/quck3.jpg) no-repeat 50% 50%;
+.list {
+  list-style: disc;
+  padding-left: 1rem;
+  & li {
+    list-style-type: disc;
+  }
 }

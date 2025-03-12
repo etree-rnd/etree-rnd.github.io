@@ -1,0 +1,30 @@
+.circle {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-noto-sans), serif;
+    font-optical-sizing: auto;
+    font-weight: var(--font-black);
+    font-style: normal;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-stretch: condensed;
+    margin: 0.5rem;
+}
+
+.skyBlue {
+    background-color: var(--sky-blue-color);
+}
+
+.darkBlue {
+    background-color: var(--dark-blue-color);
+}
+
+.darkBrown {
+    background-color: var(--dark-brown-color);
+}

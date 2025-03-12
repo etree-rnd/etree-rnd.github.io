@@ -1,0 +1,43 @@
+
+.border {
+    border: 0.1rem solid var(--gray-color);
+    padding: 0.1rem 0.8rem 0.8rem 0.8rem;
+}
+
+.title {
+    font-size: 0.8rem;
+    font-weight: var(--font-bold);
+}
+
+.storeList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.common {
+    height: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    color: white;
+    margin-right: 0.5rem;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.main {
+    width: 6rem;
+    background-color: var(--deep-dark-gray-color);
+}
+
+.sub {
+    width: 5rem;
+    background-color: var(--dark-gray-color);
+}
+
+.ext {
+    width: 5rem;
+    background-color: var(--dark-gray-color);
+    box-shadow: 0.2rem -0.2rem var(--gray-color);
+}

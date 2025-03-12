@@ -5,3 +5,65 @@
 .ctt_con_p_br {
   clear: both;
 }
+
+.mainTitle {
+  text-align: center;
+  font-family: var(--font-noto-sans), serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-extra-bold);
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--dark-blue-color);
+}
+
+.imgArea {
+  margin: 1.5rem auto;
+}
+
+.subTitle {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: var(--font-noto-sans), serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-semi-bold);
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.diagramContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.darkBlueColor {
+  color: var(--dark-blue-color);
+  font-weight: var(--font-extra-bold);
+}
+
+.darkBrownColor {
+  color: var(--dark-brown-color);
+  font-weight: var(--font-extra-bold);
+}
+
+.skyBlueBgColor {
+  background-color: var(--sky-blue-color);
+}
+
+.darkBlueBgColor {
+  background-color: var(--dark-blue-color);
+}
+
+.darkBrownBgColor {
+  background-color: var(--dark-brown-color);
+}
