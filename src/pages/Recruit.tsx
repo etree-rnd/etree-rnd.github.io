@@ -7,6 +7,7 @@ import person from 'assets/images/person.png'
 import people from 'assets/images/people.png'
 import click from 'assets/images/click.png'
 import community from 'assets/images/community.png'
+import recruitImg from 'assets/images/recruit.jpg';
 
 export default function Recruit() {
   const { menus } = useDefaultData();
@@ -19,6 +20,9 @@ export default function Recruit() {
           이트리소프트는 열정과 도전정신을 가지고<br/>
           항상 긍정, 능동, 적극적인 마인드로 일할 수 있는 인재를 채용합니다.
         </p>
+        <div className={styles.imgArea}>
+          <img src={recruitImg} alt={'채용 이미지'}/>
+        </div>
         <div className={styles.sectionArea}>
           <Section
             bottomBorder={true}

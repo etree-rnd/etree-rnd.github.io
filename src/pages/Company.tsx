@@ -22,7 +22,7 @@ export default function Company() {
         </div>
         <p className={styles.subTitle}>
           <b className={styles.darkBlueColor}>IT서비스</b>를 통한 <b className={styles.darkBlueColor}>사람, 기업(고객, 파트너)</b>이라는 <b className={styles.darkBrownColor}>나무(Tree)</b>로 뿌리내려<br/>
-          더블어 성장하는 기업으로 발전시키고자 합니다.
+          더불어 성장하는 기업으로 발전시키고자 합니다.
         </p>
         <article className={styles.diagramContainer}>
           <Circle bgColor={'skyBlue'}>
