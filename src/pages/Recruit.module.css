@@ -9,6 +9,10 @@
   line-height: 2rem;
 }
 
+.imgArea {
+  margin: 1.5rem auto;
+}
+
 .sectionArea {
   display: flex;
   flex-wrap: wrap;
