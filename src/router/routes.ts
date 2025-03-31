@@ -6,6 +6,7 @@ import Contact from 'pages/Contact';
 import Privacy from 'pages/Privacy';
 import Provision from 'pages/Provision';
 import Company from "pages/Company";
+import MobileMenu from "pages/MobileMenu";
 
 export default [
   {
@@ -39,5 +40,9 @@ export default [
   {
     path: '/provision',
     component: Provision,
+  },
+  {
+    path: '/MobileMenu',
+    component: MobileMenu,
   },
 ];
