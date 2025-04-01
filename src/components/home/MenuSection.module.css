@@ -15,12 +15,10 @@
 .menuTitle {
     font-size: 1.5rem;
     font-weight: var(--font-bold);
-    color: var(--white-color);
+    color: var(--navy-blue-color);
     margin-bottom: 0.5rem;
-    -webkit-text-stroke: 1px var(--navy-blue-color);
     & > a:link, > a:visited {
-        color: var(--white-color);
-        -webkit-text-stroke: 1px var(--navy-blue-color);
+        color: var(--navy-blue-color);
     }
     & > a:hover {
         color: var(--navy-blue-color);
