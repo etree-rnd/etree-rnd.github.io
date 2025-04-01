@@ -1,0 +1,56 @@
+.menuContainer {
+  background-color: #005BBB; /* 짙은 하늘색 */
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.closeButton {
+  position: absolute;
+  top: 6rem;
+  right: 6rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menuList_ul {
+  list-style: none;
+  margin-top: 4rem;
+  padding: 0;
+}
+
+.menuItem_li {
+  font-size: 2rem;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+  color: var(--white-color) !important;
+  & a:visited, a:link, a:active {
+    color: var(--white-color) !important;
+  }
+}
+
+.menuList_2ul {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.menuItem_2li {
+  font-size: 1rem;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+  color: var(--white-color) !important;
+  & a:visited, a:link, a:active {
+    color: var(--white-color) !important;
+  }
+}

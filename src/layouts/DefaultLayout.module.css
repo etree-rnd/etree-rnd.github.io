@@ -12,3 +12,18 @@
   cursor: pointer;
   z-index: 10;
 }
+
+.menu_btn {
+  position: fixed;
+  bottom: 10%;
+  right: 20px;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/images/menu_button_mobile.png) no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 10;
+}
