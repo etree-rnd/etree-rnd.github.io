@@ -77,7 +77,7 @@ export default function Recruit() {
             leftBorder={true}
             image={community}
             alt={'사람'}
-            title={'인재상'}
+            title={'복리후생'}
           >
             <ul className={`${styles.contents} ${styles.contentsList}`}>
               <li>
