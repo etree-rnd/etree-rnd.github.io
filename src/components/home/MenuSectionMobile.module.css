@@ -1,0 +1,47 @@
+.menuContainer {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin: 3rem auto;
+    gap: 1rem;
+}
+
+.menuArea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.image {
+    width: 4rem;
+}
+
+.menuTitle {
+    font-size: 1.3rem;
+    font-weight: var(--font-bold);
+    color: #1F4E78;
+    margin-bottom: 0.5rem;
+    & > a:link, > a:visited {
+        color: #1F4E78;
+    }
+    & > a:hover {
+        color: #1F4E78;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            display: inline-blok;
+            height: 1rem;
+            width: 100%;
+            background-color: #97A8F6;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+}
+
+.contents {
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}

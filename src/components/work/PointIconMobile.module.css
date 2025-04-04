@@ -1,0 +1,18 @@
+.container {
+    background-color: var(--charcoal-color);
+    text-align: center;
+}
+
+.image {
+    width: 9rem;
+    height: 9rem;
+    object-fit: contain;
+}
+
+.description {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}

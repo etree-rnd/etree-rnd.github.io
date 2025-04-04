@@ -1,0 +1,35 @@
+.container {
+    height: 15rem;
+    margin: auto 0;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.sectionArea {
+    width: 25rem;
+    height: 14rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.bottomBorder {
+    border-bottom: 0.1rem solid var(--gray-color);
+}
+
+.leftBorder {
+    border-left: 0.1rem solid var(--gray-color);
+}
+
+.image {
+    height: 5rem;
+    margin-right: 0.8rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}

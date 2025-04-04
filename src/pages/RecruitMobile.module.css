@@ -1,0 +1,41 @@
+.container {
+  margin-bottom: 2rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.imgArea {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto;
+}
+
+.sectionArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 0.15rem solid var(--gray-color);
+  background-color: var(--white-color);
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  max-width: 80%;
+}
+
+.contents {
+  font-size: 0.89rem;
+}
+
+.contentsList {
+  list-style-position: outside;
+  padding-left: 1rem;
+}
+
+.contents li {
+  list-style-type: "- ";
+}

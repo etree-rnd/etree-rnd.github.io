@@ -31,7 +31,7 @@
 
 .menuItem_li {
   font-size: 2rem;
-  margin-left: 7rem;
+  margin-left: 4rem;
   margin-bottom: 2rem;
   color: var(--white-color) !important;
   & a:visited, a:link, a:active {
@@ -40,8 +40,9 @@
 }
 
 .menuList_2ul {
+  font-size: 1.5rem;
   list-style: none;
-  margin-top: 2rem;
+  margin-top: 0;
   padding: 0;
 }
 

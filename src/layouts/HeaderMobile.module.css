@@ -4,6 +4,7 @@
   top: 0;
   left: 0;
   width: 100vw;
+  max-width: 100%;
 }
 
 .hd_h1 {
@@ -19,7 +20,8 @@
 }
 
 .hd_wrapper {
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   zoom: 1;
   background-color: #fff;
