@@ -30,40 +30,40 @@
 }
 
 .workYear {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: var(--font-bold);
-    margin: 3rem 0 1rem;
+    margin: 3rem 1rem 1rem;
 }
 
 .workTable {
     border-collapse:collapse;
     margin:0 auto;
-    width:100%;
+    width:95%;
 }
 
 .workTableTr {
-    height: 4.5rem;
+    height: 4rem;
 }
 
 .workTableTd {
     border: 0.1rem solid var(--gray-color);
     padding: 0.2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     &:last-child {
         text-align: left;
         padding-left: 1rem;
     }
     &:nth-of-type(1) {
-        width: 15rem;
+        width: 25%;
     }
     &:nth-of-type(2) {
-        width: 15rem;
+        width: 26%;
     }
 }
 
 .clientLogo {
-    width: 10rem;
-    height: 3rem;
+    width: 6rem;
+    height: 1.8rem;
     object-fit: contain;
 }

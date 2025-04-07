@@ -3,7 +3,7 @@ import { useDefaultData } from 'commons/useDefaultData';
 import PageFrame from 'components/PageFrameMobile';
 import styles from 'pages/BusinessMobile.module.css';
 import { useLocation } from 'react-router';
-import Sism from 'components/business/Sism';
+import Sism from 'components/business/SismMobile';
 import Solution from 'components/business/Solution';
 import BusinessTopImg from 'assets/images/businessMobile_top.png';
 

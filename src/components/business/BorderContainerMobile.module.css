@@ -1,0 +1,45 @@
+.container {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 17rem;
+    border-width: 0.3rem;
+    border-radius: 1rem;
+    border-style: solid;
+    text-align: center;
+}
+
+.lightSkyBlue {
+    border-color: var(--light-sky-blue-color);
+}
+
+.darkGreen {
+    border-color: var(--dark-green-color);
+}
+
+.step {
+    color: var(--sism-step-red-color);
+    font-weight: var(--font-bold);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.mailTitle {
+    font-weight: var(--font-extra-bold);
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.subTitle {
+    color: var(--sism-blue-color);
+    font-weight: var(--font-bold);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.description {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-top: 1rem;
+}
