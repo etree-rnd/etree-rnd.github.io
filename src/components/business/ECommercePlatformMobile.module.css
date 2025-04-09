@@ -1,0 +1,84 @@
+.mainContainer {
+    width: 95%;
+    margin: 1rem auto;
+    border: 0.1rem solid var(--gray-color);
+    background-color: white;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.leftTop {
+    display: flex;
+}
+
+.headerIcon {
+    padding: 0 0.3rem;
+}
+
+.foContainer {
+    position: relative;
+}
+
+.title {
+    font-size: 0.8rem;
+    font-weight: var(--font-bold);
+}
+
+.foBottom {
+    position: absolute;
+    top: 3.7rem;
+    & > span {
+        display: inline-block;
+        margin-left: 5.9em;
+        &:first-child {
+            margin-left: 3rem;
+        }
+        &:last-child {
+            margin-left: 13em;
+        }
+    }
+}
+
+.cpBottom {
+    position: absolute;
+    /*margin-top: 0.7rem;*/
+    & > span {
+        display: inline-block;
+        margin-left: 2em;
+        &:first-child {
+            margin-left: 4.5rem;
+        }
+        &:nth-child(6) {
+            margin-left: 4.5rem;
+        }
+    }
+}
+
+.heightBetween {
+    display: flex;
+    flex-direction: column;
+}
+
+.sysBetweenArrow {
+    margin-top: 7rem;
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.osArea {
+    margin-top: 1em;
+}

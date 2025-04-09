@@ -1,5 +1,5 @@
 .container {
-    margin: 0.2rem 0.2rem;
+    margin: 0.5rem 0.5rem;
 }
 
 .titleThin {
@@ -13,7 +13,7 @@
 }
 
 .contents {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1rem;
     margin-top: 0.5rem;
 }

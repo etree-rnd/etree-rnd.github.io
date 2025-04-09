@@ -1,0 +1,133 @@
+
+.border {
+    width: 65%;
+    margin: auto 5rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid var(--gray-color);
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.8rem 0.8rem 0.8rem;
+    & > ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.area {
+    border: 0.1rem solid var(--gray-color);
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    background-color: var(--light-gray-color);
+    color: var(--deep-dark-gray-color);
+    font-size: 0.7rem;
+}
+
+.itgArea {   
+    font-size: 0.7rem;
+    height: 9.4rem;
+}
+
+.cpsArea {  
+    width: 80%;
+    height: 3.5rem;
+}
+
+.cmArea, .tmArea {
+    width: 80%;
+    
+    height: 5rem;
+    margin-top: 0.5rem;
+}
+
+.detailContents {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    & > li {
+        border: 0.1rem solid var(--gray-color);
+        background-color: var(--white-color);
+        color: var(--deep-dark-gray-color);
+        text-align: center;
+        font-size: 0.5rem;
+        line-height: 1.5rem;
+        box-sizing: content-box;
+    }
+}
+
+.integrationContents {
+    flex-direction: column;
+    & > li {
+        width: 5rem;
+        height: 1.4rem;
+        margin-top: 0.8rem;
+        &:first-child {
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+.cpsContents {
+    margin-top: 0.1rem;
+    padding-bottom: 0;
+    & > li {
+        width: 5rem;
+        height: 1.5rem;
+        margin-left: 0.5rem;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.cmContents {
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    & > li {
+        width: 13rem;
+        height: 1.3rem;
+    }
+}
+
+.tmContents > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > li {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        margin-left: 0.2rem;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &:last-of-type {
+        margin-top: 0.2rem;
+        & > li {
+            padding-left: 1.05rem;
+            padding-right: 1.05rem;
+        }
+    }
+}
+
+.fontStretch90p {
+    transform: scaleX(90%);
+}
+
+.arrowArea {
+    width: 1.4rem;
+    text-align: center;
+    & > div {
+        margin-top: 1.5rem;
+        &:last-of-type {
+            margin-top: 4rem;
+        }
+    }
+}
+
+.arrowH {
+    transform: scaleX(120%);
+}

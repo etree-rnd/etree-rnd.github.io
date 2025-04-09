@@ -1,0 +1,21 @@
+.container {
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: var(--font-bold);
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.platformArea {
+    display: block;
+}
+
+.stepArea {
+    width: 95%;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
