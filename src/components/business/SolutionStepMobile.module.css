@@ -1,8 +1,9 @@
 .container {
-    width: 25%;
-    padding: 0.5rem 0.2rem;
+    width: 33%;
+    margin: auto auto;
+    padding: 0.5rem 0.1rem;
     border-width: 0.2rem;
-    border-radius: 1.3rem;
+    border-radius: 1.2rem;
     border-style: solid;
     border-color: var(--dark-gray-color);
     box-sizing: border-box;
@@ -11,11 +12,11 @@
 .step {
     color: var(--sism-step-red-color);
     font-weight: var(--font-bold);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .contents {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: var(--font-bold);
     line-height: 1.2rem;
     margin-top: 0.2rem;

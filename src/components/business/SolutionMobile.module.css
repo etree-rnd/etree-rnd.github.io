@@ -4,8 +4,7 @@
 .title {
     font-size: 1.6rem;
     font-weight: var(--font-bold);
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin: 1rem 0.5rem;
 }
 
 .platformArea {
@@ -13,9 +12,14 @@
 }
 
 .stepArea {
+    display: flex;
+    justify-content: space-between;
     width: 95%;
     margin: 0.5rem auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }

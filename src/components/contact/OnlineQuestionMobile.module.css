@@ -27,7 +27,7 @@
     max-width: 100%;
     font-size: 0.9rem;
     padding: 0.2rem;
-    margin-top: 0.8rem;
+    margin-top: 0.9rem;
     &:first-of-type {
         margin-top: 0;
     }
@@ -40,6 +40,7 @@
     font-size: 0.9rem;
     resize: none;
     padding: 0.2rem;
+    margin-top: 1rem;
 }
 
 .buttonContainer {
@@ -53,4 +54,5 @@
     padding: 0.5rem 2.5rem;
     border: none;
     border-radius: 0.5rem;
+    margin-top: 2rem;
 }

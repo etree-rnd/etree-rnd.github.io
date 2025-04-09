@@ -2,12 +2,16 @@
     margin-top: 0.5rem;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
-    height: 21rem;
     border-width: 0.3rem;
     border-radius: 1rem;
     border-style: solid;
     text-align: center;
+    width: 95%;
+    height: 17rem;
+}
+
+.container:last-of-type {
+    height: 22rem;
 }
 
 .lightSkyBlue {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './SolutionMobile.module.css';
 import SolutionStep from './SolutionStepMobile';
-import ECommercePlatform from './ECommercePlatformMobile';
+import eCommercePlatform from 'assets/images/eCommercePlatform.png';
 
 export default function Solution(): React.ReactElement {
   return (
@@ -9,7 +9,7 @@ export default function Solution(): React.ReactElement {
       <h1 className={styles.title}>e-Commerce Platform</h1>
       <section className={styles.platformArea}>
         <article>
-          <ECommercePlatform />
+          <img src={eCommercePlatform} alt={'eCommercePlatform'} className={styles.img}/>
         </article>
         <article className={styles.stepArea}>
           <SolutionStep steps={1} >
