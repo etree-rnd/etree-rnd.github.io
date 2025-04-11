@@ -23,9 +23,9 @@ export default function Solution(): React.ReactElement {
             론칭에 최적화된 솔루션
           </SolutionStep>
           <SolutionStep steps={3} >
-            모듈별 기늘별 선택적 구성<br/>
-            및 커스터마이징 개발에<br/>
-            최적화된 솔루션
+            모듈별 기늘별 선택적<br/>
+            구성 및 커스터마이징<br/>
+            개발에 최적화된 솔루션
           </SolutionStep>
         </article>
       </section>

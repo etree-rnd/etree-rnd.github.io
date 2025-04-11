@@ -13,9 +13,16 @@ import QuickBanner4 from 'assets/images/quck3.png';
 export default function Home() {
   const mainTitle: React.ReactElement = (
     <h1 className={styles.mainTitle}>
-      이트리소프트는 고객의 신뢰를 최우선으로 다양한 프로젝트를 수행하면서 우수한 평가를 받아왔고
-      항상 도전하는 정신으로 전문성과 기술력을 쌓아오면서 성장하였습니다.
-      이트리소프트는 더불어 살아가고 나누는 회사를 만드는데 모든 임직원이 함께 하고 있습니다.
+      <span>이트리소프트는</span>
+      <span>고객의 신뢰를 최우선으로</span>
+      <span>다양한 프로젝트를 수행하면서</span>
+      <span>우수한 평가를 받아왔고</span>
+      <span>항상 도전하는 정신으로</span>
+      <span>전문성과 기술력을 쌓아오면서</span>
+      <span>성장하였습니다.</span>
+      <span>이트리소프트는 더불어 살아가고자</span>
+      <span>나누는 회사를 만드는 데에</span>
+      <span>모든 임직원이 함께 하고 있습니다.</span>
     </h1>
   );
 
@@ -53,9 +60,14 @@ export default function Home() {
       <section className={styles.menuArea}>
         <MenuSection iconSrc={QuickBanner1} iconAlt={'company'} name={'COMPANY'} uri={'/company'}>
           <p>
-            이트리소프트는 금융 및 e-Commerce 등에서 풍부한 경험을 보유하고 있으며
-            이미 다양한 프로젝트를 통해 우수한 평가를 받았고
-            서비스 구축 및 운영, 컨설팅 전반에 대한 토털 서비스를 제공하는 전문 기업입니다.
+            이트리소프트는 금융 및<br/>
+            e-Commerce 등에서<br/>
+            풍부한 경험을 보유하고 있으며<br/>
+            이미 다양한 프로젝트를 통해<br/>
+            우수한 평가를 받았고<br/>
+            서비스 구축 및 운영, 컨설팅<br/>
+            전반에 대한 토털 서비스를<br/>
+            제공하는 전문 기업입니다.
           </p>
         </MenuSection>
         <MenuSection iconSrc={QuickBanner2} iconAlt={'business'} name={'BUSINESS'} uri={'/business/si'}>
@@ -69,8 +81,11 @@ export default function Home() {
         </MenuSection>
         <MenuSection iconSrc={QuickBanner3} iconAlt={'work'} name={'WORK'} uri={'/work'}>
           <p>
-            이트리소프트는 다년간 롯데카드, NH투자증권, 이지자산평가, 쇼핑엔티 등
-            국내 굴지의 기업을 대상으로 최상의 IT 서비스를 제공해 왔습니다.
+            이트리소프트는 다년간<br/>
+            롯데카드, NH투자증권,<br/>
+            이지자산평가, 쇼핑엔티 등<br/>
+            국내 굴지의 기업을 대상으로<br/>
+            최상의 IT 서비스를 제공해 왔습니다.
           </p>
         </MenuSection>
         <MenuSection iconSrc={QuickBanner4} iconAlt={'recruit'} name={'RECRUIT'} uri={'/recruit'}>

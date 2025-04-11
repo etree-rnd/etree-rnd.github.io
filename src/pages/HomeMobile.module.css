@@ -58,13 +58,27 @@
 .mainTitle {
   width: 90%;
   margin: 0 auto;
-  font-size: 1.5rem;
-  font-weight: var(--font-bold);
   height: 550px;
   display: flex;
-  align-items: center;
+  flex-direction: column;       /* 줄마다 세로로 정렬 */
+  align-items: flex-start;      /* 왼쪽 정렬 */
   justify-content: center;
   color: white;
+  line-height: 1.5;             /* 줄 간격 줄이기 */
+  font-size: 1.5rem;            /* 기본 글씨 크기 */
+  font-weight: var(--font-bold);
+
+  & span {
+    display: block;            /* 줄마다 독립된 블록 */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  & span:first-child {
+    font-size: 2rem;           /* 첫 줄만 강조 */
+    font-weight: bold;
+  }
 }
 
 .list {

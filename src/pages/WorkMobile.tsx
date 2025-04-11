@@ -48,8 +48,10 @@ export default function Work() {
       <PageFrame id={id} to={to} menu={name}>
         <div className={styles.container}>
           <p className={styles.description}>
-            이트리소프트는 고객만족을 최우선으로 새로운 것에 늘 도전하며<br/>
-            다양한 금융 프로젝트에서 괄목할 만한 성과를 만들어 가고 있습니다.
+            이트리소프트는 고객만족을 최우선으로<br/>
+            새로운 것에 늘 도전하며<br/>
+            다양한 금융 프로젝트에서 괄목할 만한<br/>
+            성과를 만들어 가고 있습니다.
           </p>
           <div className={styles.imageArea}>
             {pointIcons.map(({imgSrc, imgAlt, children}: PointIconProps, index) => (

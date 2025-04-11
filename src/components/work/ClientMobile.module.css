@@ -5,23 +5,24 @@
     flex-wrap: wrap;
     margin: 1rem auto;
     border: 0.1rem solid var(--gray-color);
-}
-
-.clientLogoGrid {
+  }
+  
+  .clientLogoGrid {
     box-sizing: border-box;
-    width: 20%;
+    width: 33.3333%;   /* 🔥 한 줄에 3개! */
     text-align: center;
     align-items: center;
     padding: 0.4rem;
     height: auto;
     line-height: 4.5rem;
-    &:nth-of-type(even) {
-        background-color: var(--gray-color);
+  
+    &:nth-of-type(odd) {
+      background-color: var(--gray-color);
     }
-}
+  }
 
 .clientLogo {
-    width: 4rem;
-    height: 1.4rem;
+    width: 5rem;
+    height: 2.5rem;
     object-fit: contain;
 }

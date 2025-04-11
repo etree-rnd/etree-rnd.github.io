@@ -18,7 +18,8 @@ export default function Recruit() {
       <div className={styles.container}>
         <p className={styles.description}>
           이트리소프트는 열정과 도전정신을 가지고<br/>
-          항상 긍정, 능동, 적극적인 마인드로 일할 수 있는 인재를 채용합니다.
+          항상 긍정, 능동, 적극적인 마인드로 일할 수<br/>
+          있는 인재를 채용합니다.
         </p>
         <div className={styles.imgArea}>
           <img src={recruitImg} alt={'채용 이미지'}/>
