@@ -14,7 +14,7 @@ export default function Company() {
     <PageFrame id={id} to={to} menu={name}>
       <section>
         <h1 className={styles.mainTitle}>
-          ㈜이트리소프트는<br/>
+          ㈜넥스트리온은<br/>
           고객의 성공과 가치 창출을 위한<br/>
           IT서비스 파트너로서 성장하겠습니다.
         </h1>
@@ -41,7 +41,7 @@ export default function Company() {
           </CircleMobile>
         </article>
         <p className={styles.description}>
-          이트리소프트는 작지만 젊고 강한 기업으로<br/>
+          넥스트리온은 작지만 젊고 강한 기업으로<br/>
           거듭나기 위해 끈임없는 연구개발과 개발자로서의<br/>
           근성을 통해 IT분야의 핵심기술을 연마하고<br/>
           전문인력을 양성하여<br/>

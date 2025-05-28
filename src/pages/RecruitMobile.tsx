@@ -17,7 +17,7 @@ export default function Recruit() {
     <PageFrame id={id} to={to} menu={name}>
       <div className={styles.container}>
         <p className={styles.description}>
-          이트리소프트는 열정과 도전정신을 가지고<br/>
+          넥스트리온은 열정과 도전정신을 가지고<br/>
           항상 긍정, 능동, 적극적인 마인드로 일할 수<br/>
           있는 인재를 채용합니다.
         </p>

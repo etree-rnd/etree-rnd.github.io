@@ -13,7 +13,7 @@ export default function Privacy() {
         <p className={styles.para}>개인정보취급방침</p>
         <div className={styles.t_box}>
           <p className={styles.t_box_p}>
-            이트리소프트(이하 &lsquo;회사&rsquo;라 합니다.)는 회원의 사생활 및
+            넥스트리온(이하 &lsquo;회사&rsquo;라 합니다.)는 회원의 사생활 및
             개인정보를 적극적으로 보호하여 정보화 사회에서의 통신의 자유를
             보장하고자 아래와 같이 개인정보취급방침을 명시하여 실천하고
             있습니다. 회사의 개인정보취급방침은 관련 법률 및 정부 지침의 변경과

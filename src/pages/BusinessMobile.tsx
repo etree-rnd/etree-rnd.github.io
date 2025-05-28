@@ -23,7 +23,7 @@ export default function Business() {
       <>
         <img src={BusinessTopImg} alt={'businessTopImg'} className={styles.imgArea}/>
         <p className={styles.description}>
-          이트리소프트는 금융 및 e-Commerce 등에서<br/>
+          넥스트리온은 금융 및 e-Commerce 등에서<br/>
           풍부한 경험과 노하우를 보유하고 있으며<br/>
           이미 다양한 프로젝트를 통해 우수한 평가를<br/>
           받았고 현재도 여러 프로젝트에서 좋은 성과를<br/>
