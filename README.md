@@ -1,4 +1,4 @@
-# 이트리소프트 홈페이지 React App
+# 넥스트리온 홈페이지 React App
 
 `GitHub Pages`에 배포된 버전은 `6f9696bb` 버전이며 이후 버전은 `GitLab Pages`에 적용하기 위해 수정한 내용입니다.
 

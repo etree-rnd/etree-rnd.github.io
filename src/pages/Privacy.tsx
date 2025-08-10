@@ -217,7 +217,9 @@ export default function Privacy() {
           <div className={styles.t_box2}>
             <p className={styles.group_2}>개인정보관리책임자 [최병호]</p>
             <p className={styles.t_box_p}>전화번호 : 02-3499-4497</p>
-            <p className={styles.t_box_p}>이메일 : etree_admin@etreesoft.com</p>
+            <p className={styles.t_box_p}>
+              이메일 : nextryon_admin@nextryon.com
+            </p>
           </div>
           <p className={styles.t_box_p}>
             회원은 회사의 서비스를 이용하시며 발생하는 모든 개인정보보호 관련

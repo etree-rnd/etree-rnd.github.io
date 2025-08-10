@@ -60,19 +60,18 @@ export default function Provision() {
               수 있습니다.
             </li>
             <li className={styles.ol_li}>
-              <span className={styles.num}>③</span>'넥스트리온'이 약관을
-              개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께
-              사이트의 초기화 면에 그 적용일자 7일 이전부터 적용일자 전일까지
-              공지합니다.
+              <span className={styles.num}>③</span>'넥스트리온'이 약관을 개정할
+              경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 사이트의
+              초기화 면에 그 적용일자 7일 이전부터 적용일자 전일까지 공지합니다.
             </li>
             <li className={styles.ol_li}>
-              <span className={styles.num}>④</span>'넥스트리온'이 약관을
-              개정할 경우에는 그 개정약관은 그 적용일자 이후에 체결되는 계약에만
+              <span className={styles.num}>④</span>'넥스트리온'이 약관을 개정할
+              경우에는 그 개정약관은 그 적용일자 이후에 체결되는 계약에만
               적용되고 그 이전에 이미 체결된 계약에 대해서는 개정전의 약관조항이
               그대로 적용됩니다. 다만 이미 계약을 체결한 이용자가 개정약관
               조항의 적용을 받기를 원하는 뜻을 제3항에 의한 개정약관의
-              공지기간내에 '넥스트리온'에 송신하여 '넥스트리온'의 동의를
-              받은 경우에는 개정약관조항이 적용됩니다.
+              공지기간내에 '넥스트리온'에 송신하여 '넥스트리온'의 동의를 받은
+              경우에는 개정약관조항이 적용됩니다.
             </li>
             <li className={styles.ol_li}>
               <span className={styles.num}>⑤</span>&nbsp;이 약관에서 정하지
@@ -97,8 +96,8 @@ export default function Provision() {
                   또는 상품의 배송
                 </li>
                 <li className={styles.ol_li}>
-                  <span className={styles.num}>3.</span>기타 넥스트리온이
-                  정하는 서비스
+                  <span className={styles.num}>3.</span>기타 넥스트리온이 정하는
+                  서비스
                 </li>
               </ol>
             </li>
@@ -110,10 +109,9 @@ export default function Provision() {
             <li className={styles.ol_li}>
               <span className={styles.num}>③</span>'넥스트리온'이 제공하기로
               이용자와 계약을 체결한 서비스의 내용을 재화의 품절 또는 기술적
-              사양의 변경 등의 사유로 변경할 경우에는 '넥스트리온'은 이로
-              인하여 이용자가 입은 손해를 배상하지 아니합니다. 단,
-              '넥스트리온'에게 고의 또는 과실이 있는 경우에는 그러하지
-              아니합니다.
+              사양의 변경 등의 사유로 변경할 경우에는 '넥스트리온'은 이로 인하여
+              이용자가 입은 손해를 배상하지 아니합니다. 단, '넥스트리온'에게
+              고의 또는 과실이 있는 경우에는 그러하지 아니합니다.
             </li>
           </ol>
         </div>
@@ -131,11 +129,10 @@ export default function Provision() {
               통지합니다.
             </li>
             <li className={styles.ol_li}>
-              <span className={styles.num}>③</span>'넥스트리온'은 제1항의
-              사유로 서비스의 제공이 일시적으로 중단됨으로 인하여 이용자 또는
-              제3자가 입은 손해에 대하여 배상하지 아니합니다. 단
-              '넥스트리온'에게 고의 또는 과실이 있는 경우에는 그러하지
-              아니합니다.
+              <span className={styles.num}>③</span>'넥스트리온'은 제1항의 사유로
+              서비스의 제공이 일시적으로 중단됨으로 인하여 이용자 또는 제3자가
+              입은 손해에 대하여 배상하지 아니합니다. 단 '넥스트리온'에게 고의
+              또는 과실이 있는 경우에는 그러하지 아니합니다.
             </li>
           </ol>
         </div>
@@ -189,7 +186,7 @@ export default function Provision() {
           <ol className={styles.ol}>
             <li className={styles.ol_li}>
               <span className={styles.num}>①</span>회원은 '넥스트리온'에게
-              언제든지 탈퇴를 요청할 수 있으며 이트리소프트은 즉시 회원 탈퇴를
+              언제든지 탈퇴를 요청할 수 있으며 넥스트리온은 즉시 회원 탈퇴를
               처리합니다.
             </li>
             <li className={styles.ol_li}>
@@ -202,20 +199,18 @@ export default function Provision() {
                   내용을 등록한 경우
                 </li>
                 <li className={styles.ol_li}>
-                  <span className={styles.num}>2.</span>'넥스트리온'을
-                  이용하여 구입한 재화또는상품 등의 대금, 기타 '넥스트리온'
-                  이용에 관련하여 회원이 부담하는 채무를 기일에 지급하지 않는
-                  경우
+                  <span className={styles.num}>2.</span>'넥스트리온'을 이용하여
+                  구입한 재화또는상품 등의 대금, 기타 '넥스트리온' 이용에
+                  관련하여 회원이 부담하는 채무를 기일에 지급하지 않는 경우
                 </li>
                 <li className={styles.ol_li}>
-                  <span className={styles.num}>3.</span>다른 사람의
-                  '넥스트리온' 이용을 방해하거나 그 정보를 도용하는 등
-                  전자거래 질서 를 위협하는 경우
+                  <span className={styles.num}>3.</span>다른 사람의 '넥스트리온'
+                  이용을 방해하거나 그 정보를 도용하는 등 전자거래 질서 를
+                  위협하는 경우
                 </li>
                 <li className={styles.ol_li}>
-                  <span className={styles.num}>4.</span>'넥스트리온'을
-                  이용하여 법령과 이 약관이 금지하거나 공서양속에 반하는 행위를
-                  하는 경우
+                  <span className={styles.num}>4.</span>'넥스트리온'을 이용하여
+                  법령과 이 약관이 금지하거나 공서양속에 반하는 행위를 하는 경우
                 </li>
               </ol>
             </li>
@@ -281,13 +276,13 @@ export default function Provision() {
           <p className={styles.group}>제10조(계약의 성립)</p>
           <ol className={styles.ol}>
             <li className={styles.ol_li}>
-              <span className={styles.num}>①</span>이트리소프트는 제9조와 같은
+              <span className={styles.num}>①</span>넥스트리온은 제9조와 같은
               구매신청에 대하여 다음 각 호에 해당하지 않는 한 승낙합니다.
               <ol className={styles.ol}>
                 <li className={styles.ol_li}>
                   <span className={styles.num}>1.</span>신청 내용에 허위,
                   기재누락, 오기가 있는 경우 기타 구매신청에 승낙하는 것이
-                  이트리소프트 기술상, 및 업무 수행상 현저히 지장이 있다고
+                  넥스트리온 기술상, 및 업무 수행상 현저히 지장이 있다고
                   판단하는 경우
                 </li>
               </ol>
@@ -303,8 +298,8 @@ export default function Provision() {
         <div className={styles.t_box}>
           <p className={styles.group}>제11조(지급방법)</p>
           <span className={styles.span}>
-            '넥스트리온'에서 구매한 재화 또는 상품에 대한 대금지급방법은 다음
-            각 호의 하나로 할 수 있습니다.
+            '넥스트리온'에서 구매한 재화 또는 상품에 대한 대금지급방법은 다음 각
+            호의 하나로 할 수 있습니다.
           </span>
           <p className={styles.p2}>- 계좌이체</p>
           <p className={styles.p2}>- 신용카드결제</p>
@@ -321,11 +316,11 @@ export default function Provision() {
             </li>
             <li className={styles.ol_li}>
               <span className={styles.num}>③</span>온라인 송금은 회원이 직접
-              황윤규(이트리소프트) 계좌로 돈을 입금하는 방식입니다.
+              황윤규(넥스트리온) 계좌로 돈을 입금하는 방식입니다.
             </li>
             <li className={styles.ol_li}>
-              <span className={styles.num}>④</span>사이버캐시는
-              '넥스트리온'에서 현금처럼 사용할 수 있습니다.
+              <span className={styles.num}>④</span>사이버캐시는 '넥스트리온'에서
+              현금처럼 사용할 수 있습니다.
             </li>
           </ol>
           <p className={styles.p_bold}>- 사이버캐시에 관한 규정</p>
@@ -335,8 +330,8 @@ export default function Provision() {
               사이트 내에서 마치 현금처럼 사용할 수 있는 전자 화폐입니다.
             </li>
             <li className={styles.ol_li}>
-              <span className={styles.num}>②</span>사이버캐시는
-              '넥스트리온'에서 물건을 구입할 때 자동으로 적립됩니다.
+              <span className={styles.num}>②</span>사이버캐시는 '넥스트리온'에서
+              물건을 구입할 때 자동으로 적립됩니다.
             </li>
             <li className={styles.ol_li}>
               <span className={styles.num}>③</span>구매할 때 적립된 사이버캐시는
@@ -383,7 +378,7 @@ export default function Provision() {
             </li>
           </ol>
         </div>
-        <p className={styles.para}>[제5장 이트리소프트와 이용자의 의무사항]</p>
+        <p className={styles.para}>[제5장 넥스트리온와 이용자의 의무사항]</p>
         <div className={styles.t_box}>
           <p className={styles.group}>제14조(개인정보보호)</p>
           <ol className={styles.ol}>
@@ -520,8 +515,8 @@ export default function Provision() {
             <li className={styles.ol_li}>
               <span className={styles.num}>④</span>자신의 ID 및 비밀번호를
               도난당하거나 제3자가 사용하고 있음을 인지한 경우에는 바로
-              '넥스트리온'에게 통보하고 '넥스트리온'의 안내가 있는 경우에는
-              그에 따라야 합니다.
+              '넥스트리온'에게 통보하고 '넥스트리온'의 안내가 있는 경우에는 그에
+              따라야 합니다.
             </li>
           </ol>
         </div>
@@ -536,8 +531,8 @@ export default function Provision() {
               등록
             </li>
             <li className={styles.ol_li}>
-              <span className={styles.num}>②</span>'넥스트리온'에 게시된
-              정보의 변경
+              <span className={styles.num}>②</span>'넥스트리온'에 게시된 정보의
+              변경
             </li>
             <li className={styles.ol_li}>
               <span className={styles.num}>③</span>'넥스트리온'이 정한 정보
@@ -575,9 +570,8 @@ export default function Provision() {
           <p className={styles.group}>제19조(저작권의 귀속 및 이용제한)</p>
           <ol className={styles.ol}>
             <li className={styles.ol_li}>
-              <span className={styles.num}>①</span>'넥스트리온' 작성한
-              저작물에 대한 저작권 기타 지적재산권은 이트리소프트에게
-              귀속합니다.
+              <span className={styles.num}>①</span>'넥스트리온' 작성한 저작물에
+              대한 저작권 기타 지적재산권은 넥스트리온에게 귀속합니다.
             </li>
             <li className={styles.ol_li}>
               <span className={styles.num}>②</span>이용자는 '넥스트리온'을

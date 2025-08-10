@@ -20,11 +20,12 @@ export function useDefaultData() {
 
   const company: Company = {
     name: '넥스트리온',
-    bizNo: '000-00-00000',
-    address: '서울특별시 금천구 가산동, 0호',
-    telephone: '02-0000-0000',
-    fax: '02-0000-0000',
-    email: 'etree_admin@nextryon.com',
+    bizNo: '728-81-03822',
+    address:
+      '서울특별시 금천구 가산디지털2로 173(가산동, 에이스비즈포레 1021호)',
+    telephone: '02-3489-3225',
+    fax: '02-3489-3225',
+    email: 'nextryon_admin@nextryon.com',
   };
 
   const works: WorkContents[] = [
