@@ -13,9 +13,9 @@ import QuickBanner4 from 'assets/images/quck3.png';
 export default function Home() {
   const mainTitle: React.ReactElement = (
     <h1 className={styles.mainTitle}>
-      이트리소프트는 고객의 신뢰를 최우선으로 다양한 프로젝트를 수행하면서 우수한 평가를 받아왔고<br/>
+      넥스트리온은 고객의 신뢰를 최우선으로 다양한 프로젝트를 수행하면서 우수한 평가를 받아왔고<br/>
       항상 도전하는 정신으로 전문성과 기술력을 쌓아오면서 성장하였습니다.<br/>
-      이트리소프트는 더불어 살아가고 나누는 회사를 만드는데 모든 임직원이 함께 하고 있습니다.
+      넥스트리온은 더불어 살아가고 나누는 회사를 만드는데 모든 임직원이 함께 하고 있습니다.
     </h1>
   );
 
@@ -53,7 +53,7 @@ export default function Home() {
       <section className={styles.menuArea}>
         <MenuSection iconSrc={QuickBanner1} iconAlt={'company'} name={'COMPANY'} uri={'/company'}>
           <p>
-            이트리소프트는 금융 및 e-Commerce 등에서 풍부한 경험을 보유하고 있으며<br/>
+            넥스트리온은 금융 및 e-Commerce 등에서 풍부한 경험을 보유하고 있으며<br/>
             이미 다양한 프로젝트를 통해 우수한 평가를 받았고<br/>
             서비스 구축 및 운영, 컨설팅 전반에 대한 토털 서비스를 제공하는 전문 기업입니다.
           </p>
@@ -69,13 +69,13 @@ export default function Home() {
         </MenuSection>
         <MenuSection iconSrc={QuickBanner3} iconAlt={'work'} name={'WORK'} uri={'/work'}>
           <p>
-            이트리소프트는 다년간 롯데카드, NH투자증권, 이지자산평가, 쇼핑엔티 등<br/>
+            넥스트리온은 다년간 롯데카드, NH투자증권, 이지자산평가, 쇼핑엔티 등<br/>
             국내 굴지의 기업을 대상으로 최상의 IT 서비스를 제공해 왔습니다.
           </p>
         </MenuSection>
         <MenuSection iconSrc={QuickBanner4} iconAlt={'recruit'} name={'RECRUIT'} uri={'/recruit'}>
           <p>
-            이트리소프트와 함께 성장하고자 하는 인재 여러분들을 환영합니다.
+            넥스트리온과 함께 성장하고자 하는 인재 여러분들을 환영합니다.
           </p>
         </MenuSection>
       </section>
