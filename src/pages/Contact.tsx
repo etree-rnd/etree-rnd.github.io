@@ -13,7 +13,7 @@ export default function Contact() {
     <PageFrame id={id} to={to} menu={name} submenu={midName}>
       <div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.8403149275982!2d127.0508089!3d37.5484661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca497f7db2b77%3A0x4d342dfdf821b8c7!2z7ZWY7Jqw7Iqk65SU7IS47KKF7YOA7JuM!5e0!3m2!1sko!2skr!4v1630862971541!5m2!1sko!2skr"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d0!2d126.8770755!3d37.4831727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e1d2b037865%3A0xa12171157d125153!2z7Jik7IqkIOyViOyghO2VnA!5e0!3m2!1sko!2skr!4v0000000000000!5m2!1sko!2skr"
           width="100%"
           height="350"
           loading="lazy"
